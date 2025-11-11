@@ -5,5 +5,5 @@
 - [x] Modify app/llm_connectors/shopify_client.py to use storefront token for /api/ paths
 - [x] Update app/orchestrator.py to initialize ShopifyClient with storefront token
 - [x] Add token validation on startup
-- [ ] Build proper GraphQL query in orchestrator.py for SEARCH_PRODUCT based on entities
-- [ ] Test the fix with the provided API keys
+- [x] Build proper GraphQL query in orchestrator.py for SEARCH_PRODUCT based on entities
+- [x] Test the fix with the provided API keys

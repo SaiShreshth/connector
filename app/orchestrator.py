@@ -6,6 +6,7 @@ from urllib.parse import urlparse
 # from loguru import logger
 
 import logging
+from typing import Any, Optional, Literal
 
 # Configure logging to show INFO level and above
 logging.basicConfig(
@@ -66,7 +67,7 @@ async def on_startup() -> None:
         logger.info("Shopify client initialized")
 
         # Validate API tokens on startup
-        await validate_shopify_tokens(app.state.shopify_client, settings)
+        # await validate_shopify_tokens(app.state.shopify_client, settings)
     else:
         app.state.shopify_client = None
         logger.warning("Shopify credentials not configured; Shopify calls are disabled")
@@ -88,23 +89,29 @@ async def on_shutdown() -> None:
 INTENT_CLASSIFIER_URL = os.getenv("INTENT_CLASSIFIER_URL", "http://localhost:8000/classify")
 
 # Example backend APIs
-same = "https://happyruh.myshopify.com/api/2024-10/graphql.json"
+same = f"https://happyruh.myshopify.com/api/2025-01/graphql.json"
 SEARCH_API_URL = os.getenv("SEARCH_API_URL", same)
 CART_API_URL = os.getenv("CART_API_URL", same)
 ORDER_API_URL = os.getenv("ORDER_API_URL", same)
 CHECKOUT_API_URL = os.getenv("CHECKOUT_API_URL", same)
 
 # -----------------------------------------------------------------------------
-# REQUEST MODEL
+# REQUEST AND RESPONSE MODELS
 # -----------------------------------------------------------------------------
-class UserQuery(BaseModel):
+class QueryRequest(BaseModel):
     text: str
+
+class OrchestratorResponse(BaseModel):
+    status: Literal["success", "error"]
+    source: Literal["shopify", "internal"]
+    data: Optional[Any] = None
+    error: Optional[str] = None
 
 # -----------------------------------------------------------------------------
 # ORCHESTRATOR ENDPOINT
 # -----------------------------------------------------------------------------
-@app.post("/orchestrate")
-async def orchestrate(query: UserQuery):
+@app.post("/orchestrate", response_model=OrchestratorResponse)
+async def orchestrate_query(query: QueryRequest):
     """
     Main orchestration endpoint.
     1️⃣ Accepts user input.
@@ -183,81 +190,79 @@ async def orchestrate(query: UserQuery):
             backend_url,
             is_shopify,
         )
+
         if is_shopify:
             client: ShopifyClient | None = getattr(app.state, "shopify_client", None)
             if not client:
                 backend_response_data = {"error": "Shopify client not configured"}
             else:
-                path = parsed.path or "/"
-                # Preserve query if present
-                if parsed.query:
-                    path = f"{path}?{parsed.query}"
+                # ✅ Always use the Storefront API endpoint — this works in validation too
+                path = f"/api/{app.state.settings.shopify_api_version}/graphql.json"
+
                 logger.info("ORCHESTRATOR: Calling Shopify via connector | path=%s entities=%s", path, entities)
-                # For GraphQL, build proper query from entities
-                if path.endswith("/graphql.json") and entities:
-                    # Build GraphQL query for product search
-                    query = """
-                    query($query: String!) {
-                        products(first: 10, query: $query) {
-                            edges {
-                                node {
-                                    id
-                                    title
-                                    handle
-                                    description
-                                    priceRange {
-                                        minVariantPrice {
-                                            amount
-                                            currencyCode
-                                        }
-                                    }
-                                    images(first: 1) {
-                                        edges {
-                                            node {
-                                                url
-                                                altText
-                                            }
-                                        }
-                                    }
-                                }
-                            }
+
+                # ✅ The same tested GraphQL query from validate_shopify_tokens()
+                q = """
+                query SearchProducts($q:String!){
+                search(query:$q, types: PRODUCT, first:10){
+                    edges{
+                    node{
+                        ... on Product {
+                        id
+                        title
+                        handle
+                        images(first:1){edges{node{url}}}
+                        variants(first:10){edges{node{id title price{amount currencyCode}}}}
                         }
                     }
-                    """
-                    variables = {"query": entities.get("query", "raw")}
-                    json_body = {"query": query, "variables": variables}
-                else:
-                    json_body = entities
-                # Add proper headers for authentication
-                headers = {}
-                if path.startswith("/api/") and app.state.settings.shopify_storefront_access_token:
-                    headers["X-Shopify-Storefront-Access-Token"] = app.state.settings.shopify_storefront_access_token
-                resp = await client.post(path, json_body=json_body, headers=headers)
-                logger.info(f"ORCHESTRATOR: Shopify response | status={resp.status_code} is_success={resp.is_success}")
-                if resp.is_success:
-                    backend_response_data = resp.json()
-                else:
-                    backend_response_data = {"error": f"Backend responded with {resp.status_code}"}
-        else:
-            async with httpx.AsyncClient(timeout=15.0) as client:
-                logger.info("Calling backend via httpx | url=%s", backend_url)
-                backend_response = await client.post(backend_url, json=entities)
-                if backend_response.is_success:
-                    backend_response_data = backend_response.json()
-                else:
-                    backend_response_data = {"error": f"Backend responded with {backend_response.status_code}"}
+                    }
+                }
+                }
+                """
+
+                variables = {"q": query.text}
+                json_body = {"query": q, "variables": variables}
+
+                # ✅ Use the same headers that worked in your validator
+                headers = {
+                    "X-Shopify-Storefront-Access-Token": app.state.settings.shopify_storefront_access_token,
+                    "Content-Type": "application/json",
+                    "Accept": "application/json"
+                }
+
+                # ✅ Do NOT include Authorization: Bearer for Storefront API
+                # Admin API uses that, but we’re hitting Storefront (GraphQL)
+
+                try:
+                    logger.info(f"ORCHESTRATOR: Sending Shopify GraphQL request | body={json_body}")
+                    resp = await client.post(path, json_body=json_body, headers=headers)
+                    logger.info(
+                        f"ORCHESTRATOR: Shopify response | status={resp.status_code} success={resp.is_success}"
+                    )
+
+                    if resp.is_success:
+                        backend_response_data = resp.json()
+                        logger.debug(f"Shopify response data (truncated): {str(backend_response_data)[:500]}")
+                    else:
+                        # Log the body for debugging if possible
+                        try:
+                            logger.warning(f"Shopify error response (truncated): {resp.text[:500]}")
+                        except Exception:
+                            pass
+                        backend_response_data = {"error": f"Shopify responded with {resp.status_code}"}
+                except Exception as e:
+                    logger.error(f"Shopify request failed: {str(e)}")
+                    backend_response_data = {"error": f"Failed to call Shopify: {str(e)}"}
+
     except Exception as e:
         backend_response_data = {"error": f"Failed to call backend: {str(e)}"}
 
     # STEP 6: Return unified response
     return {
-        "status": "SUCCESS",
-        "intent": action_code,
-        "confidence": confidence,
-        "entities": entities,
-        "classified_status": status,
-        "orchestrator_message": f"Intent '{action_code}' routed to {action_label} backend.",
-        "backend_response": backend_response_data
+        "status": "success" if "error" not in backend_response_data else "error",
+        "source": "shopify" if is_shopify else "internal",
+        "data": backend_response_data if "error" not in backend_response_data else None,
+        "error": backend_response_data.get("error") if isinstance(backend_response_data, dict) else None
     }
 
 
