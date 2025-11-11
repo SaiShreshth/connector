@@ -1,0 +1,57 @@
+services:
+  qdrant:
+    image: qdrant/qdrant:v1.15.1
+    container_name: qdrant
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant_storage:/qdrant/storage
+
+  postgres:
+    image: postgres:15-alpine
+    container_name: happyruh_postgres
+    environment:
+      POSTGRES_DB: happyruh
+      POSTGRES_USER: ruh
+      POSTGRES_PASSWORD: ruhpass
+      TZ: Asia/Kolkata
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  api:
+    build: .
+    container_name: happyruh_api
+    depends_on:
+      - qdrant
+      - postgres
+    env_file:
+      - .env
+    environment:
+      TZ: Asia/Kolkata
+    ports:
+      - "8000:8000"
+    command: >
+      uvicorn src.main:app --host 0.0.0.0 --port 8000 --log-level info
+    volumes:
+      - ./:/app
+
+  worker:
+    build: .
+    container_name: happyruh_worker
+    depends_on:
+      - qdrant
+      - postgres
+    env_file:
+      - .env
+    environment:
+      TZ: Asia/Kolkata
+    command: python -u src/pipeline_daily.py
+    volumes:
+      - ./:/app
+
+volumes:
+  qdrant_storage:
+  pgdata:
