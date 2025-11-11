@@ -1,0 +1,137 @@
+{
+  "CREATE_ACCOUNT": {
+    "priority": 1,
+    "keywords": [
+      "create account", "sign up", "register", "open account", "new account",
+      "start account", "account registration", "register new user", "create profile", "signup account",
+      "register account", "make account", "new user signup", "account creation", "setup account",
+      "create new profile", "join now", "register me", "sign me up", "create user account"
+    ]
+  },
+  "LOGIN": {
+    "priority": 2,
+    "keywords": [
+      "login", "sign in", "access account", "log in", "enter account",
+      "user login", "account login", "signin", "log into account", "authenticate",
+      "account access", "enter credentials", "user sign in", "login portal", "login page",
+      "enter user", "account entry", "member login", "sign into account", "log on"
+    ]
+  },
+  "LOGOUT": {
+    "priority": 3,
+    "keywords": [
+      "logout", "sign out", "exit account", "log off", "end session",
+      "close account session", "user logout", "leave account", "sign off", "log out now",
+      "end login session", "log off account", "exit user", "logout portal", "sign out user",
+      "terminate session", "exit login", "logout page", "close session", "end account session"
+    ]
+  },
+  "LOGIN_STATUS": {
+    "priority": 4,
+    "keywords": [
+      "login status", "check login", "verify login", "account status", "user session status",
+      "current login", "check if logged in", "verify account access", "login info", "check user session",
+      "login verification", "login check", "user login status", "account login info", "session status",
+      "check signed in", "verify login status", "account session info", "login state", "check user login"
+    ]
+  },
+  "LOGIN_WITH_SOCIAL": {
+    "priority": 5,
+    "keywords": [
+      "login with social", "sign in with Google", "login with Facebook", "social login", "login via social",
+      "login with LinkedIn", "social media login", "sign in using social account", "authenticate with social",
+      "login via Google", "login via Facebook", "social account login", "connect social login", "login with account",
+      "sign in with social media", "login using Facebook", "login using Google", "login via LinkedIn", "social signin", "social authentication"
+    ]
+  },
+  "FORGOT_PASSWORD": {
+    "priority": 6,
+    "keywords": [
+      "forgot password", "reset password", "recover password", "lost password", "password recovery",
+      "forgot my password", "retrieve password", "password reset", "change forgotten password", "forgot login",
+      "reset account password", "recover account password", "forgot login credentials", "forgot my login", "password help",
+      "recover login info", "retrieve login", "forgot credentials", "password assistance", "reset forgotten password"
+    ]
+  },
+  "RESET_PASSWORD": {
+    "priority": 7,
+    "keywords": [
+      "reset password", "change password", "update password", "set new password", "modify password",
+      "password reset", "update account password", "change login password", "reset login password", "update credentials",
+      "new password setup", "password modification", "reset account password", "change user password", "update login credentials",
+      "change account password", "password change", "set password", "modify login password", "update login info"
+    ]
+  },
+  "CHANGE_PASSWORD": {
+    "priority": 8,
+    "keywords": [
+      "change password", "update password", "modify password", "reset password", "set new password",
+      "password update", "change login password", "update account password", "password modification", "edit password",
+      "update credentials", "change account password", "modify login password", "set login password", "change user password",
+      "password change process", "reset login password", "update user password", "alter password", "change password settings"
+    ]
+  },
+  "UPDATE_PROFILE": {
+    "priority": 9,
+    "keywords": [
+      "update profile", "edit profile", "change profile info", "modify profile", "profile update",
+      "edit account info", "update account details", "update user profile", "change profile details", "profile modification",
+      "edit personal info", "update personal info", "update profile info", "modify account profile", "update details",
+      "edit profile settings", "change account profile", "update user info", "profile edit", "update my profile"
+    ]
+  },
+  "VIEW_PROFILE": {
+    "priority": 10,
+    "keywords": [
+      "view profile", "show profile", "see profile", "check profile", "profile overview",
+      "profile info", "display profile", "account profile", "profile page", "profile details",
+      "view account info", "show account profile", "check user profile", "display user info", "see account details",
+      "profile lookup", "account details", "user info", "view personal info", "profile information"
+    ]
+  },
+  "DELETE_ACCOUNT": {
+    "priority": 11,
+    "keywords": [
+      "delete account", "remove account", "close account", "terminate account", "delete profile",
+      "account deletion", "cancel account", "deactivate account", "remove profile", "close my account",
+      "delete user account", "terminate profile", "end account", "delete login", "cancel profile",
+      "remove user account", "delete my account", "deactivate profile", "terminate user account", "account removal"
+    ]
+  },
+  "VERIFY_EMAIL": {
+    "priority": 12,
+    "keywords": [
+      "verify email", "confirm email", "email verification", "validate email", "check email",
+      "confirm account email", "verify my email", "email confirmation", "validate account email", "verify address",
+      "confirm user email", "email validation", "verify email address", "check my email", "confirm email address",
+      "email confirmation process", "verify registered email", "validate email address", "email verify", "confirm registered email"
+    ]
+  },
+  "RESEND_VERIFICATION": {
+    "priority": 13,
+    "keywords": [
+      "resend verification", "resend confirmation", "send verification email again", "send confirmation email", "resend email verification",
+      "resend confirmation link", "send email again", "email verification resend", "send confirmation link again", "resend email",
+      "send verification link", "repeat email verification", "resend registration confirmation", "send verification again", "resend account verification",
+      "resend email confirmation link", "resend verify email", "repeat email confirmation", "re-send verification email", "resend email link"
+    ]
+  },
+  "PROFILE_PICTURE_UPDATE": {
+    "priority": 14,
+    "keywords": [
+      "update profile picture", "change profile photo", "edit profile image", "upload profile picture", "modify avatar",
+      "change avatar", "update photo", "replace profile picture", "change profile image", "edit avatar",
+      "profile photo update", "update my picture", "change my photo", "upload new profile picture", "update user photo",
+      "replace avatar", "profile picture modification", "edit user image", "change display picture", "update profile photo"
+    ]
+  },
+  "PREFERENCES_UPDATE": {
+    "priority": 15,
+    "keywords": [
+      "update preferences", "change settings", "edit preferences", "modify preferences", "preferences update",
+      "update account settings", "edit account preferences", "change user preferences", "adjust settings", "modify user settings",
+      "update my preferences", "edit profile settings", "change app settings", "update options", "modify account options",
+      "edit my preferences", "change preferences settings", "update user settings", "update profile preferences", "adjust preferences"
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "ORDER_STATUS": {
+    "priority": 1,
+    "keywords": [
+      "order status", "track order", "check order", "order tracking", "view order status",
+      "order progress", "order update", "check my order", "status of order", "order delivery status",
+      "track my order", "order information", "order details", "order shipment status", "see order status",
+      "current order status", "order tracking info", "order processing status", "check delivery status", "order status update"
+    ]
+  },
+  "ORDER_HISTORY": {
+    "priority": 2,
+    "keywords": [
+      "order history", "past orders", "previous purchases", "order records", "order log",
+      "purchase history", "my orders", "check previous orders", "order archive", "historical orders",
+      "review past orders", "order history list", "view old orders", "see previous purchases", "order summary history",
+      "order record", "previous order details", "check order history", "past purchases list", "order history report"
+    ]
+  },
+  "ORDER_CANCEL": {
+    "priority": 3,
+    "keywords": [
+      "cancel order", "order cancellation", "stop order", "terminate order", "delete order",
+      "cancel purchase", "void order", "abort order", "withdraw order", "revoke order",
+      "cancel current order", "cancel pending order", "remove order", "cancel transaction", "end order",
+      "cancel my order", "stop my purchase", "order cancel request", "cancel processing order", "abort my order"
+    ]
+  },
+  "ORDER_MODIFY": {
+    "priority": 4,
+    "keywords": [
+      "modify order", "edit order", "change order", "update order", "adjust order",
+      "order modification", "alter order", "update purchase", "change order details", "edit purchase",
+      "modify my order", "revise order", "amend order", "update order items", "change quantity in order",
+      "edit order items", "modify order request", "update shipping info", "change product in order", "edit order info"
+    ]
+  },
+  "ORDER_RETURN": {
+    "priority": 5,
+    "keywords": [
+      "return order", "initiate return", "send back order", "order return request", "process return",
+      "return purchased item", "return product", "start return", "order refund", "return request",
+      "return order items", "return my purchase", "return shipment", "initiate refund", "return merchandise",
+      "request order return", "return bought item", "product return request", "return to store", "return order process"
+    ]
+  },
+  "ORDER_INVOICE": {
+    "priority": 6,
+    "keywords": [
+      "order invoice", "get invoice", "view invoice", "download invoice", "invoice details",
+      "order receipt", "purchase invoice", "invoice request", "print invoice", "order billing",
+      "see invoice", "invoice for order", "order bill", "request invoice", "generate invoice",
+      "order payment invoice", "invoice document", "billing statement", "invoice record", "view purchase invoice"
+    ]
+  },
+  "REORDER": {
+    "priority": 7,
+    "keywords": [
+      "reorder", "buy again", "repeat order", "order again", "place order again",
+      "repeat purchase", "order same item", "reorder product", "repurchase", "buy same item",
+      "reorder previous order", "order from history", "repeat transaction", "purchase again", "order repeated items",
+      "buy previously ordered", "repeat order now", "reorder last purchase", "order same product", "order again items"
+    ]
+  },
+  "TRACK_SHIPMENT": {
+    "priority": 8,
+    "keywords": [
+      "track shipment", "shipment tracking", "track package", "shipment status", "package tracking",
+      "track delivery", "track my shipment", "check shipment", "shipment info", "shipment update",
+      "track order shipment", "package status", "track my package", "delivery tracking", "track parcel",
+      "track delivery status", "shipment location", "order shipment tracking", "track shipped order", "track shipment online"
+    ]
+  },
+  "DELIVERY_STATUS": {
+    "priority": 9,
+    "keywords": [
+      "delivery status", "check delivery", "delivery update", "track delivery", "view delivery",
+      "delivery info", "shipment status", "order delivery status", "check shipment status", "delivery progress",
+      "current delivery status", "delivery tracking info", "view shipping status", "package delivery status", "status of delivery",
+      "delivery update info", "track delivery status", "delivery timeline", "check package delivery", "delivery report"
+    ]
+  },
+  "DELIVERY_ESTIMATE": {
+    "priority": 10,
+    "keywords": [
+      "delivery estimate", "estimated delivery", "expected delivery", "delivery date estimate", "delivery time",
+      "check estimated delivery", "estimated arrival", "approximate delivery", "delivery ETA", "delivery prediction",
+      "expected arrival date", "estimate shipping time", "delivery schedule estimate", "approximate arrival", "estimated shipping date",
+      "predict delivery", "delivery timeline estimate", "check delivery ETA", "expected package arrival", "delivery forecast"
+    ]
+  },
+  "SCHEDULE_DELIVERY": {
+    "priority": 11,
+    "keywords": [
+      "schedule delivery", "set delivery time", "arrange delivery", "delivery scheduling", "plan delivery",
+      "book delivery", "delivery appointment", "choose delivery slot", "select delivery time", "schedule shipping",
+      "delivery reservation", "schedule order delivery", "delivery booking", "set delivery date", "schedule parcel",
+      "delivery planning", "organize delivery", "delivery slot selection", "delivery setup", "plan shipment delivery"
+    ]
+  },
+  "CHANGE_DELIVERY_DATE": {
+    "priority": 12,
+    "keywords": [
+      "change delivery date", "reschedule delivery", "update delivery time", "modify delivery date", "adjust delivery date",
+      "change shipping date", "delivery date change", "reschedule shipment", "update delivery schedule", "alter delivery date",
+      "modify shipping time", "update delivery slot", "adjust shipping date", "reschedule package", "delivery date modification",
+      "change expected delivery", "update expected delivery date", "adjust shipment date", "change order delivery", "alter shipping schedule"
+    ]
+  },
+  "SHIPMENT_DETAILS": {
+    "priority": 13,
+    "keywords": [
+      "shipment details", "package info", "shipping details", "parcel info", "delivery information",
+      "shipment info", "track shipment info", "shipment report", "package details", "order shipment info",
+      "shipping info", "delivery tracking details", "shipment record", "parcel details", "shipment summary",
+      "track parcel details", "shipment data", "shipping record", "shipment overview", "order delivery details"
+    ]
+  },
+  "SHIPPING_COST": {
+    "priority": 14,
+    "keywords": [
+      "shipping cost", "delivery charges", "shipping fee", "delivery cost", "cost of shipping",
+      "shipping rate", "calculate shipping", "shipping price", "shipping expenses", "delivery fee",
+      "shipping charges info", "shipping amount", "check shipping cost", "cost to ship", "order shipping cost",
+      "delivery charges info", "shipping fees info", "total shipping cost", "shipping calculation", "delivery price"
+    ]
+  },
+  "SHIPPING_OPTIONS": {
+    "priority": 15,
+    "keywords": [
+      "shipping options", "delivery methods", "choose shipping", "select shipping option", "shipping choices",
+      "delivery options", "shipping types", "choose delivery method", "available shipping", "shipping selection",
+      "delivery selection", "shipment methods", "shipping alternatives", "delivery type selection", "shipping preferences",
+      "shipping method options", "select delivery option", "available delivery options", "shipping plan", "delivery method choices"
+    ]
+  },
+  "CANCEL_RETURN": {
+    "priority": 17,
+    "keywords": [
+      "cancel return", "abort return", "stop return", "cancel return request", "withdraw return",
+      "terminate return", "cancel refund process", "cancel return order", "remove return request", "cancel item return",
+      "cancel product return", "cancel merchandise return", "stop refund request", "end return", "abort refund",
+      "cancel order return", "revoke return request", "cancel refund", "withdraw item return", "terminate return process"
+    ]
+  },
+  "RETURN_STATUS": {
+    "priority": 18,
+    "keywords": [
+      "return status", "check return", "return progress", "return update", "return tracking",
+      "status of return", "track return", "view return status", "return info", "return shipment status",
+      "return process status", "return request status", "check return request", "return order status", "return tracking info",
+      "status of refund", "track return order", "return progress info", "return report", "return update info"
+    ]
+  },
+  "TRACK_RETURN": {
+    "priority": 19,
+    "keywords": [
+      "track return", "return tracking", "track my return", "return shipment tracking", "check return status",
+      "track returned item", "return package tracking", "track returned product", "return delivery status", "view return progress",
+      "return tracking info", "monitor return", "track return order", "return order tracking", "track return request",
+      "return shipment status", "return progress tracking", "track refund", "track returned order", "return parcel tracking"
+    ]
+  },
+  "RETURN_PICKUP_SCHEDULE": {
+    "priority": 20,
+    "keywords": [
+      "schedule return pickup", "return pickup", "arrange return pickup", "set return pickup time", "book return pickup",
+      "plan return pickup", "return collection", "return item pickup", "schedule pickup for return", "pickup return item",
+      "return pickup request", "schedule return collection", "pickup return order", "return parcel pickup", "organize return pickup",
+      "return item collection", "return pickup booking", "return package pickup", "plan pickup for return", "arrange pickup for return"
+    ]
+  }
+}

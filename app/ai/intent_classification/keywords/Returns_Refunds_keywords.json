@@ -1,0 +1,75 @@
+{
+  "INITIATE_RETURN": {
+    "priority": 1,
+    "keywords": [
+      "initiate return", "start return", "begin return", "return product", "return item",
+      "return request", "request return", "return order", "return this", "want to return",
+      "need to return", "return process", "return initiation", "start return process", "begin return process",
+      "create return", "make return", "process return", "return submission", "initiate return request",
+      "i want to return", "i need to return", "i would like to return", "return this product", "return this item"
+    ]
+  },
+  "VIEW_RETURN_POLICY": {
+    "priority": 2,
+    "keywords": [
+      "view return policy", "check return policy", "see return rules", "browse return policy", "return guidelines",
+      "return instructions", "return regulations", "view refund policy", "return conditions", "policy for returns",
+      "return terms", "return info", "returns information", "return procedures", "return policy details",
+      "return policy page", "return policy overview", "return policy online", "return policy instructions", "view returns info"
+    ]
+  },
+  "PRODUCT_RETURN_ELIGIBILITY": {
+    "priority": 2,
+    "keywords": [
+      "product return eligibility", "check if product can be returned", "returnable product", "eligible for return",
+      "return conditions for product", "can I return", "product return rules", "return policy eligibility", "return criteria",
+      "return allowed", "product return check", "returnable item", "return eligibility info", "verify return eligibility",
+      "product eligible for return", "item return status", "returnable status", "check returnable", "return approval check", "eligible for refund"
+    ]
+  },
+  "REFUND_REQUEST": {
+    "priority": 3,
+    "keywords": [
+      "refund request", "request refund", "apply for refund", "initiate refund", "refund application",
+      "file for refund", "submit refund request", "refund claim", "request money back", "refund procedure",
+      "ask for refund", "refund form", "refund submission", "apply refund", "claim refund",
+      "request reimbursement", "start refund process", "refund ticket", "refund application online", "raise refund request"
+    ]
+  },
+  "REFUND_COMPLETE": {
+    "priority": 4,
+    "keywords": [
+      "refund complete", "refund processed", "refund successful", "refund received", "refund done",
+      "completed refund", "refund finished", "money refunded", "refund confirmed", "refund transaction complete",
+      "refund completed successfully", "refund finalized", "refund payment done", "refund settled", "refund executed",
+      "refund confirmation", "refund completed online", "refund received confirmation", "refund status complete", "refund finalized successfully"
+    ]
+  },
+  "VIEW_WARRANTY_POLICY": {
+    "priority": 5,
+    "keywords": [
+      "view warranty policy", "check warranty", "see warranty rules", "browse warranty policy", "warranty terms",
+      "warranty info", "warranty conditions", "warranty guidelines", "warranty instructions", "warranty details",
+      "warranty coverage", "warranty information page", "warranty policy overview", "warranty info online", "warranty policy instructions",
+      "warranty page", "warranty regulations", "warranty terms details", "warranty policy check", "warranty info section"
+    ]
+  },
+  "WARRANTY_CLAIM": {
+    "priority": 6,
+    "keywords": [
+      "warranty claim", "claim warranty", "file warranty", "submit warranty claim", "request warranty",
+      "warranty request", "register warranty claim", "apply warranty", "warranty application", "make warranty claim",
+      "start warranty process", "warranty service request", "claim product warranty", "raise warranty claim", "warranty repair request",
+      "warranty replacement", "warranty issue request", "warranty submission", "initiate warranty claim", "warranty service claim"
+    ]
+  },
+  "WARRANTY_STATUS": {
+    "priority": 7,
+    "keywords": [
+      "warranty status", "check warranty status", "view warranty status", "warranty info", "warranty update",
+      "warranty tracking", "warranty progress", "check warranty progress", "warranty claim status", "warranty report",
+      "warranty overview", "warranty current status", "status of warranty", "warranty process status", "warranty service status",
+      "warranty tracking info", "warranty info online", "warranty status check", "warranty progress info", "warranty claim progress"
+    ]
+  }
+}

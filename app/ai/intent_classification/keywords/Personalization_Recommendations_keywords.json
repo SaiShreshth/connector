@@ -1,0 +1,117 @@
+{
+  "PERSONALIZED_RECOMMENDATIONS": {
+    "priority": 1,
+    "keywords": [
+      "personalized recommendations", "custom suggestions", "tailored recommendations", "recommended for me",
+      "suggested products", "personal suggestions", "recommendation engine", "recommended items",
+      "customized suggestions", "personalized products", "suggested for you", "recommended based on preferences",
+      "personalized picks", "recommendation list", "curated recommendations", "smart suggestions",
+      "personalized shopping", "product suggestions", "tailored offers", "recommended products online",
+      "personalized choices", "recommendation for user", "customized products", "suggestions based on history",
+      "personalized catalog", "recommendation tool", "customized shopping experience", "personalized items"
+    ]
+  },
+  "RECOMMEND_SIMILAR": {
+    "priority": 2,
+    "keywords": [
+      "recommend similar", "similar products", "you may also like", "similar items", "related products",
+      "similar suggestions", "related items", "like this product", "products like this", "suggest similar items",
+      "similar product recommendations", "find similar", "similar options", "related product suggestions",
+      "items like this", "similar product list", "suggest products like this", "similar choices", "related selections",
+      "similar recommendations", "recommend items like this", "show similar products", "similar product finder",
+      "find related items", "similar product suggestions online", "suggestions for similar items", "like this suggestions"
+    ]
+  },
+  "RECOMMEND_COMPLEMENTS": {
+    "priority": 3,
+    "keywords": [
+      "recommend complements", "complementary products", "pair with this", "matching items", "product bundles",
+      "recommended accessories", "add-ons", "products to go with this", "suggest complementary items",
+      "matching suggestions", "items to pair", "bundled products", "suggest add-ons", "product combos",
+      "recommended sets", "paired products", "related accessories", "items that complement", "complementary options",
+      "accessory recommendations", "product pair suggestions", "bundled items", "suggest matching products",
+      "items that go together", "product combination suggestions", "recommended pairs", "complementary bundles"
+    ]
+  },
+  "VIEW_RECOMMENDED": {
+    "priority": 4,
+    "keywords": [
+      "view recommended", "see recommendations", "show recommended products", "recommended items",
+      "view suggested products", "check recommendations", "recommended for me", "recommended list",
+      "browse suggested items", "view curated suggestions", "see personalized recommendations", "view suggested products online",
+      "check recommended items", "recommended items for you", "see recommended choices", "recommended catalog",
+      "view smart suggestions", "recommended product display", "browse recommendations", "see personalized picks",
+      "check recommended products", "show suggested items", "recommended items overview", "view recommended selection",
+      "see recommended offers", "personalized recommended items", "view suggested catalog"
+    ]
+  },
+  "SAVE_PREFERENCES": {
+    "priority": 5,
+    "keywords": [
+      "save preferences", "store settings", "save choices", "remember selections", "save user settings",
+      "save customizations", "store preferences", "update preferences", "keep my choices", "save profile preferences",
+      "save customization options", "remember preferences", "save personalization", "save user preferences",
+      "store user selections", "save settings online", "save selection options", "save my configuration",
+      "save preferences for me", "save preferred items", "keep preferred settings", "save preferences changes",
+      "store configuration", "save preference profile", "save choice settings", "save customized options",
+      "record preferences", "keep user choices"
+    ]
+  },
+  "UPDATE_PREFERENCES": {
+    "priority": 6,
+    "keywords": [
+      "update preferences", "edit settings", "modify choices", "change selections", "update user settings",
+      "change customization", "update profile preferences", "modify saved preferences", "update personalization",
+      "edit saved choices", "adjust preferences", "update selection options", "modify user settings", "update custom settings",
+      "change preferences online", "edit preference profile", "update saved selections", "adjust user preferences",
+      "modify choice settings", "update saved configuration", "change saved preferences", "update personal settings",
+      "modify customization options", "update selection preferences", "update preference choices", "change personalization settings",
+      "update preferred items", "edit configuration"
+    ]
+  },
+  "VIEW_PREFERENCES": {
+    "priority": 7,
+    "keywords": [
+      "view preferences", "see settings", "check saved choices", "display preferences", "view user settings",
+      "see personalization", "show saved options", "check saved preferences", "view customization", "see selection options",
+      "display user choices", "check personalization settings", "view profile preferences", "see saved configuration",
+      "display user settings", "view saved selections", "see preference profile", "check saved preferences online",
+      "show user preferences", "view custom settings", "see preferred options", "view configuration",
+      "check my preferences", "show saved settings", "display chosen preferences", "view selected options",
+      "see personalization profile", "view saved user settings"
+    ]
+  },
+  "CLEAR_PREFERENCES": {
+    "priority": 8,
+    "keywords": [
+      "clear preferences", "reset settings", "delete saved choices", "reset selections", "clear saved preferences",
+      "erase user settings", "reset customization", "clear personalization", "delete selections", "reset user preferences",
+      "clear saved options", "remove preferences", "clear configuration", "reset saved settings", "delete preference profile",
+      "clear chosen options", "reset selected items", "erase saved preferences", "clear my preferences", "delete saved selections",
+      "reset personalization settings", "remove saved choices", "clear saved configuration", "reset preference options",
+      "erase custom settings", "delete saved configuration", "clear preferred items", "reset user selections"
+    ]
+  },
+  "PERSONALIZED_SEARCH": {
+    "priority": 9,
+    "keywords": [
+      "personalized search", "custom search", "search based on preferences", "search tailored", "recommended search",
+      "personalized results", "search for me", "search suggestions", "customized search", "personalized query",
+      "search based on history", "search recommendations", "search like me", "personalized product search", "tailored search results",
+      "personal search options", "customized query", "personalized search engine", "search items for me", "search preferences applied",
+      "smart search", "search based on user profile", "search recommendations online", "search personalized products", "personalized results display",
+      "search based on likes", "search with preferences", "customized search results", "personalized search suggestions"
+    ]
+  },
+  "PERSONALIZED_OFFERS": {
+    "priority": 10,
+    "keywords": [
+      "personalized offers", "custom deals", "tailored offers", "offers for me", "recommended deals",
+      "personal discounts", "exclusive offers", "personalized promotions", "customized offers", "special deals",
+      "personal deal recommendations", "offers based on preferences", "targeted deals", "personalized coupons", "offers just for me",
+      "special personalized offers", "discount suggestions", "recommended promotions", "custom deal suggestions", "personalized sale offers",
+      "exclusive deals for me", "personalized bargains", "customized discounts", "tailored promotions", "offers selected for me",
+      "personalized deal recommendations", "offers curated for user", "personalized price offers", "special offers for me"
+    ]
+  }
+}

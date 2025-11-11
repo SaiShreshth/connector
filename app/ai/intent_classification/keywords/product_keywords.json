@@ -1,0 +1,225 @@
+{
+  "PRODUCT_INFO": {
+    "priority": 1,
+    "keywords": [
+      "product info", "product information", "details", "specifications", "features",
+      "product details", "tell me about", "description", "product page", "info",
+      "what is this", "learn about", "product overview", "specs", "technical details",
+      "item info", "item description", "product summary", "information on product", "product facts",
+      "know about product", "product guide", "details of item", "product sheet", "product profile",
+      "full product info", "product documentation", "product description page", "product catalog info", "product highlights",
+      "prodcut info", "prodcut information", "prodcut details", "telll me about", "desciption",
+      "prodcut page", "whatt is this", "learnn about", "prodcut overview", "specss",
+      "itemm info", "itemm description", "prodcut summary", "prodcut facts", "prodcut guide",
+      "prodcut sheet", "prodcut profile", "prodcut documentation", "prodcut highlights", "prodcut catalog info"
+    ]
+  },
+  "PRODUCT_DETAILS": {
+    "priority": 2,
+    "keywords": [
+      "product details", "item details", "full info", "show details", "complete product info",
+      "product description", "features list", "details page", "item info", "product specs",
+      "complete item info", "product characteristics", "specifications sheet", "product features",
+      "detailed info", "product summary page", "item specifications", "detailed description", "full item details", "product highlights",
+      "product data", "item overview", "technical info", "product attributes", "details of product",
+      "item profile", "product description info", "complete specs", "detailed item info", "product details sheet"
+    ]
+  },
+  "PRODUCT_AVAILABILITY": {
+    "priority": 3,
+    "keywords": [
+      "availability", "in stock", "out of stock", "is it available", "check stock",
+      "stock info", "available now", "product availability", "currently available", "stock status",
+      "inventory check", "is it in stock", "availability info", "item availability", "product in stock",
+      "check availability", "stock level", "available for purchase", "is it on hand", "inventory status",
+      "product ready to ship", "item in stock", "availability check", "current stock", "quantity available",
+      "check inventory", "product supply", "stock quantity", "availability details", "in store now"
+    ]
+  },
+  "PRODUCT_PRICE": {
+    "priority": 4,
+    "keywords": [
+      "price", "cost", "product price", "how much", "pricing",
+      "item price", "check price", "price info", "price details", "price range",
+      "price tag", "product cost", "price check", "product pricing", "item cost",
+      "price listing", "current price", "price lookup", "selling price", "market price",
+      "price information", "product value", "retail price", "price comparison", "check cost",
+      "item pricing", "cost info", "price offer", "item rate", "product pricing info"
+    ]
+  },
+  "PRODUCT_VARIANTS": {
+    "priority": 5,
+    "keywords": [
+      "variants", "options", "colors", "sizes", "models",
+      "different versions", "product types", "available variants", "options list", "product choices",
+      "item variations", "product assortment", "select variant", "variant options", "color options",
+      "size options", "model options", "available versions", "different colors", "different sizes",
+      "product selections", "item types", "variant selection", "product combinations", "item variations available",
+      "variant list", "select product version", "choose model", "choose size", "choose color"
+    ]
+  },
+  "PRODUCT_REVIEWS": {
+    "priority": 6,
+    "keywords": [
+      "reviews", "ratings", "customer feedback", "user reviews", "product ratings",
+      "review info", "see reviews", "feedback", "customer opinions", "product review",
+      "product testimonials", "user ratings", "reviews and ratings", "read reviews", "star ratings",
+      "customer review", "review page", "product comments", "opinions on product", "user feedback",
+      "product evaluation", "review summary", "ratings info", "customer experiences", "product critique",
+      "item reviews", "product appraisal", "product review info", "product rating page", "customer review info"
+    ]
+  },
+  "PRODUCT_IMAGES": {
+    "priority": 7,
+    "keywords": [
+      "product images", "product photos", "pictures of product", "image gallery", "view images",
+      "see photos", "product pictures", "product visuals", "item images", "photo gallery",
+      "images of item", "item photos", "product thumbnails", "image collection", "product snapshots",
+      "product view", "gallery images", "product display images", "item gallery", "product shots",
+      "product image gallery", "photos of item", "visuals of product", "product photography", "product pics",
+      "product images online", "product imagery", "product image collection", "product photo info", "product images page"
+    ]
+  },
+  "PRODUCT_VIDEO": {
+    "priority": 8,
+    "keywords": [
+      "product video", "video review", "product demo", "watch product", "product clip",
+      "video showcase", "product tutorial", "video overview", "see product video", "video presentation",
+      "product media", "product footage", "item video", "watch demo", "product commercial",
+      "product promo", "product video clip", "product demonstration", "video gallery", "product walkthrough",
+      "product visual media", "video showcase item", "product video info", "item demo video", "product video review",
+      "product tutorial video", "product guide video", "video of product", "product promo clip", "product explainer video"
+    ]
+  },
+
+  "PRODUCT_DIMENSIONS": {
+    "priority": 1,
+    "keywords": [
+      "product dimensions", "item size", "product measurements", "dimensions info",
+      "check product size", "product length", "product width", "product height",
+      "item length", "item width", "item height", "size details", "product specs",
+      "dimensions chart", "product sizing", "item dimensions", "size info", "check dimensions",
+      "measure product", "dimensions data", "product size chart", "physical size"
+    ]
+  },
+  "PRODUCT_WEIGHT": {
+    "priority": 2,
+    "keywords": [
+      "product weight", "item weight", "weight info", "check weight",
+      "product mass", "item mass", "shipping weight", "weight details",
+      "product heaviness", "item heaviness", "weight chart", "weight specifications",
+      "product weight data", "item weight info", "measure weight", "weight of product",
+      "product load", "item load", "check item weight", "weight measurement"
+    ]
+  },
+  "PRODUCT_SKU_INFO": {
+    "priority": 3,
+    "keywords": [
+      "product SKU", "SKU info", "item SKU", "product code", "item code",
+      "check SKU", "product identifier", "item identifier", "SKU details",
+      "product stock code", "item stock code", "SKU number", "product serial number",
+      "item serial number", "SKU lookup", "product reference", "item reference",
+      "SKU information", "check product SKU", "find SKU"
+    ]
+  },
+  "PRODUCT_COLOR_OPTIONS": {
+    "priority": 4,
+    "keywords": [
+      "product color options", "item colors", "available colors", "color variants",
+      "product color choices", "item color selection", "check colors", "color options",
+      "color variants info", "product color availability", "color chart", "color list",
+      "item color options", "color selection", "product shades", "item shades",
+      "color variations", "available shades", "check color variants", "choose color"
+    ]
+  },
+  "PRODUCT_SIZE_OPTIONS": {
+    "priority": 5,
+    "keywords": [
+      "product size options", "item sizes", "available sizes", "size variants",
+      "product size choices", "check sizes", "size chart", "size selection",
+      "item size options", "size availability", "product sizing options",
+      "choose size", "size variations", "item sizing info", "product measurement options",
+      "available measurements", "size guide", "item size selection", "select size", "check size chart"
+    ]
+  },
+  "PRODUCT_WARRANTY": {
+    "priority": 6,
+    "keywords": [
+      "product warranty", "item warranty", "warranty info", "check warranty",
+      "warranty period", "product guarantee", "item guarantee", "warranty details",
+      "coverage period", "warranty terms", "product protection", "item protection",
+      "warranty policy", "warranty support", "warranty length", "check warranty info",
+      "guarantee period", "product warranty info", "item warranty details", "warranty coverage"
+    ]
+  },
+  "PRODUCT_FAQ": {
+    "priority": 7,
+    "keywords": [
+      "product FAQ", "item frequently asked questions", "product questions", "FAQ info",
+      "check FAQs", "product queries", "item questions", "frequent questions", "product help",
+      "item help", "product Q&A", "item Q&A", "common questions", "FAQ section",
+      "product support questions", "item support questions", "product FAQ info", "check product FAQ",
+      "item FAQ details", "FAQ answers"
+    ]
+  },
+  "PRODUCT_COMPARISON": {
+    "priority": 8,
+    "keywords": [
+      "product comparison", "compare products", "item comparison", "product vs product",
+      "compare items", "comparison chart", "product features comparison", "check product comparison",
+      "item features comparison", "compare product specs", "product vs item", "compare specifications",
+      "item comparison info", "compare product details", "product comparison info", "check features",
+      "product side by side", "compare options", "product differences", "item differences"
+    ]
+  },
+  "PRODUCT_ALTERNATIVES": {
+    "priority": 9,
+    "keywords": [
+      "product alternatives", "similar products", "alternative items", "alternative options",
+      "substitute products", "replacement items", "similar options", "product substitutes",
+      "other products", "comparable items", "alternative choices", "check alternatives",
+      "product recommendations", "related products", "alternative product options", "alternative suggestions",
+      "similar items", "similar product options", "item substitutes", "similar product choices"
+    ]
+  },
+  "PRODUCT_RECOMMENDATION": {
+    "priority": 10,
+    "keywords": [
+      "product recommendation", "recommended products", "suggested items", "product suggestions",
+      "item recommendations", "recommended for you", "recommended products list", "suggested products",
+      "product picks", "item picks", "recommended options", "check recommended products",
+      "recommended items info", "suggest products", "product advice", "item advice",
+      "recommended product choices", "item suggestions", "recommended selection", "personalized recommendations"
+    ]
+  },
+  "RELATED_ACCESSORIES": {
+    "priority": 11,
+    "keywords": [
+      "related accessories", "product accessories", "item add-ons", "related items",
+      "accessory options", "compatible accessories", "product add-ons", "accessory suggestions",
+      "item attachments", "accessory recommendations", "related items list", "accessory choices",
+      "check related accessories", "product attachments", "item accessories info", "accessory options list",
+      "related gear", "matching accessories", "compatible add-ons", "accessory recommendations info"
+    ]
+  },
+  "PRODUCT_SHARE": {
+    "priority": 12,
+    "keywords": [
+      "product share", "share this product", "send product link", "share item",
+      "share on social media", "forward product", "share product info", "share with friends",
+      "share product details", "share via email", "share product page", "send item info",
+      "share item link", "share product online", "product sharing options", "share product info online",
+      "share product with contacts", "share item details", "share this item", "share product link online"
+    ]
+  },
+  "REQUEST_QUOTE": {
+    "priority": 13,
+    "keywords": [
+      "request quote", "get price quote", "quote request", "product quotation",
+      "ask for quote", "price inquiry", "request pricing", "quote details",
+      "item quote", "send quote request", "request product quote", "get quotation",
+      "ask product price", "quote information", "quotation request", "request cost info",
+      "price request", "request item pricing", "get price info", "product quote request"
+    ]
+  }
+}

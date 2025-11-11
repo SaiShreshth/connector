@@ -1,0 +1,30 @@
+{
+  "rules": {
+    "rule_sets": {
+      "A": {
+        "use_embedding": true,
+        "use_keywords": true,
+        "kw_weight": 0.85,
+        "emb_weight": 0.15,
+        "priority_threshold": 0.95,
+        "min_absolute_confidence": 0.50,
+        "min_difference_threshold": 0.05,
+        "unclear_threshold": 0.40,
+        "min_confidence": 0.60,
+        "description": "Optimized config: Trust keywords (100% accurate), use embeddings as minor signal"
+      },
+      "B": {
+        "use_embedding": true,
+        "use_keywords": true,
+        "kw_weight": 0.4,
+        "emb_weight": 0.6,
+        "priority_threshold": 0.90,
+        "min_absolute_confidence": 0.30,
+        "min_difference_threshold": 0.05,
+        "unclear_threshold": 0.40,
+        "min_confidence": 0.60,
+        "description": "Original config: More balanced between keywords and embeddings"
+      }
+    }
+  }
+}

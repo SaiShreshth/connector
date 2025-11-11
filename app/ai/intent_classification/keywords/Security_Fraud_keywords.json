@@ -1,0 +1,90 @@
+{
+  "ACCOUNT_SECURITY": {
+    "priority": 1,
+    "keywords": [
+      "account security", "secure account", "protect account", "account safety", "security settings",
+      "protect profile", "account protection", "secure profile", "account safety options", "account protection measures",
+      "security configuration", "protect my account", "secure login", "account privacy", "account safety settings",
+      "enhance account security", "profile security", "user account protection", "secure user account", "account safety tips",
+      "account defense", "account safeguard", "security options for account", "protect personal account", "account risk management",
+      "secure account settings", "strengthen account security", "account lock settings", "prevent account hacking"
+    ]
+  },
+  "TWO_FACTOR_SETUP": {
+    "priority": 2,
+    "keywords": [
+      "two-factor setup", "enable 2FA", "setup two-step verification", "activate 2FA", "enable two-factor authentication",
+      "two-step authentication setup", "configure 2FA", "two-factor login", "security verification setup", "enable 2-step login",
+      "set up 2FA", "configure two-factor login", "two-step verification setup", "enable security code login", "2FA configuration",
+      "two-factor account protection", "activate two-step verification", "setup account 2FA", "secure login setup", "two-factor authentication activation",
+      "enable authentication code", "configure security code login", "two-step verification enable", "set two-factor protection", "2FA enable instructions",
+      "account 2FA setup", "activate secure login", "two-factor security setup", "enable two-step account login"
+    ]
+  },
+  "TWO_FACTOR_VERIFY": {
+    "priority": 3,
+    "keywords": [
+      "two-factor verify", "verify 2FA", "confirm two-step login", "authentication verification", "2FA verification",
+      "verify security code", "confirm login code", "verify two-factor authentication", "enter 2FA code", "validate two-step verification",
+      "confirm 2FA", "authenticate two-factor login", "2-step verification confirm", "check security code", "validate account 2FA",
+      "two-factor authentication check", "confirm verification code", "login verification 2FA", "authenticate security code", "verify login code",
+      "2FA code entry", "verify account login", "confirm two-step code", "validate authentication code", "verify security token",
+      "2FA validation", "two-factor login verify", "confirm authentication code", "security verification confirm"
+    ]
+  },
+  "REPORT_FRAUD": {
+    "priority": 4,
+    "keywords": [
+      "report fraud", "report scam", "report suspicious activity", "report phishing", "report fake account",
+      "report fraudulent transaction", "report security issue", "report unauthorized activity", "report suspicious login", "report suspicious transaction",
+      "file fraud report", "report scam activity", "report hacking attempt", "report account compromise", "report identity theft",
+      "report fraud attempt", "report suspicious behavior", "report scam login", "report fake transaction", "report security breach",
+      "report unauthorized access", "report account fraud", "report fraudulent behavior", "report suspicious account", "report cyber fraud",
+      "report hacking incident", "report fraud online", "report suspicious activity online", "report phishing attempt"
+    ]
+  },
+  "FRAUD_DETECTION_HELP": {
+    "priority": 5,
+    "keywords": [
+      "fraud detection help", "help with fraud detection", "fraud alert assistance", "detect fraudulent activity", "fraud monitoring help",
+      "report fraud help", "assist with fraud detection", "fraud prevention support", "detect scam activity", "fraud detection guidance",
+      "security help for fraud", "assist with fraudulent transactions", "fraud alert help", "fraud monitoring guidance", "report fraud assistance",
+      "fraud protection help", "detect phishing help", "fraud check support", "help with scam detection", "fraud detection instructions",
+      "assist in fraud monitoring", "help detect suspicious activity", "fraud alert support", "security help for scams", "fraud investigation guidance",
+      "help with account fraud", "fraud alert instructions", "fraud risk support", "detect unauthorized activity help"
+    ]
+  },
+  "LOCK_ACCOUNT": {
+    "priority": 6,
+    "keywords": [
+      "lock account", "block account", "disable account", "account lock", "temporarily lock account",
+      "account freeze", "suspend account", "lock profile", "account deactivation", "secure account lock",
+      "lock user account", "disable login", "account access lock", "account security lock", "block user login",
+      "suspend user account", "lock my account", "account lockdown", "prevent account access", "lock account temporarily",
+      "account suspension", "account lockout", "secure account block", "disable profile access", "restrict account login",
+      "lock account for security", "lock unauthorized access", "account lock feature", "block suspicious login"
+    ]
+  },
+  "UNLOCK_ACCOUNT": {
+    "priority": 7,
+    "keywords": [
+      "unlock account", "enable account", "reactivate account", "restore account access", "account unlock",
+      "resume account", "unlock profile", "reactivate login", "restore user account", "enable login",
+      "account access restore", "unlock user account", "resume login", "unlock my account", "reactivate profile",
+      "account reactivation", "enable profile access", "unlock blocked account", "restore login access", "unlock suspended account",
+      "unlock account feature", "resume account access", "unlock account online", "enable blocked account", "restore account functionality",
+      "unlock temporarily locked account", "unlock user profile", "enable suspended account", "account unlock instructions"
+    ]
+  },
+  "SECURITY_ALERT": {
+    "priority": 8,
+    "keywords": [
+      "security alert", "account alert", "login alert", "fraud alert", "security notification",
+      "alert for suspicious activity", "account warning", "security warning", "suspicious login alert", "security message",
+      "alert for fraud", "notify security issue", "alert for unauthorized access", "account activity alert", "security alarm",
+      "suspicious activity notification", "security incident alert", "account breach alert", "security breach notification", "fraud detection alert",
+      "alert for hacking", "security alert message", "notify suspicious login", "alert on account compromise", "security warning message",
+      "notify fraud attempt", "alert for phishing", "account security message", "security alert online"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "SUBSCRIBE_NOTIFICATIONS": {
+    "priority": 1,
+    "keywords": [
+      "subscribe notifications", "enable notifications", "turn on alerts", "activate notifications", "subscribe to updates",
+      "get notified", "receive notifications", "notification subscription", "allow alerts", "subscribe alerts",
+      "push notifications subscribe", "notification opt-in", "enable push alerts", "subscribe messages", "receive updates",
+      "subscribe notifications service", "alert subscription", "enable alerts for updates", "notification signup", "join notifications"
+    ]
+  },
+  "UNSUBSCRIBE_NOTIFICATIONS": {
+    "priority": 2,
+    "keywords": [
+      "unsubscribe notifications", "disable notifications", "turn off alerts", "stop notifications", "unsubscribe from updates",
+      "cancel alerts", "stop receiving notifications", "notification opt-out", "disable push alerts", "remove notification subscription",
+      "unsubscribe messages", "alert opt-out", "stop notifications service", "unsubscribe from alerts", "cancel push notifications",
+      "turn off updates", "disable alert service", "stop alerts", "remove notifications", "unsubscribe from notifications service"
+    ]
+  },
+  "NOTIFICATION_PREFERENCES": {
+    "priority": 3,
+    "keywords": [
+      "notification preferences", "manage notifications", "set alert preferences", "notification settings", "customize notifications",
+      "update notifications", "notification options", "notification control", "alert preferences", "notification management",
+      "configure alerts", "notification settings page", "adjust notifications", "notification customization", "alert options",
+      "notification choices", "set notification preferences", "notification configuration", "manage alerts", "notification settings update"
+    ]
+  },
+  "VIEW_NOTIFICATIONS": {
+    "priority": 4,
+    "keywords": [
+      "view notifications", "see notifications", "check alerts", "notification list", "notification overview",
+      "open notifications", "show notifications", "read notifications", "notification inbox", "display alerts",
+      "notification panel", "check messages", "view recent alerts", "see latest notifications", "notification feed",
+      "notifications page", "view all alerts", "notifications history", "notification dashboard", "notification updates"
+    ]
+  },
+  "MARK_NOTIFICATION_READ": {
+    "priority": 5,
+    "keywords": [
+      "mark notification read", "read notification", "set notification as read", "acknowledge notification", "mark alert read",
+      "notification read status", "notification viewed", "mark messages read", "mark alert as read", "notification acknowledgement",
+      "read alerts", "notification seen", "mark as read", "confirm notification read", "notification marked viewed",
+      "update notification status", "notification processed", "mark messages as read", "alert read confirmation", "mark read"
+    ]
+  },
+  "DELETE_NOTIFICATION": {
+    "priority": 6,
+    "keywords": [
+      "delete notification", "remove notification", "erase alert", "clear notification", "delete message",
+      "remove alert", "delete notifications", "notification cleanup", "discard notification", "delete alert entry",
+      "clear alerts", "remove messages", "notification remove", "delete alert message", "erase notification entry",
+      "delete from inbox", "clear notification list", "remove notification record", "delete alert", "notification deletion"
+    ]
+  },
+  "SUBSCRIBE_PRODUCT": {
+    "priority": 1,
+    "keywords": [
+      "subscribe product", "product subscription", "get updates for product", "notify me about product", "product alert subscribe",
+      "subscribe for product updates", "product notifications", "follow product", "track product updates", "enable product alerts",
+      "product subscription alerts", "product notifications subscription", "subscribe product news", "product updates subscription", "receive product alerts",
+      "product push notifications", "product tracking subscribe", "subscribe product info", "product messages subscription", "product alert opt-in",
+      "notify me when", "notify when", "alert me when", "back in stock", "in stock", "stock notification", "restock alert", "availability alert"
+    ]
+  },
+  "UNSUBSCRIBE_PRODUCT": {
+    "priority": 8,
+    "keywords": [
+      "unsubscribe product", "stop product notifications", "disable product alerts", "remove product subscription", "cancel product updates",
+      "unsubscribe from product alerts", "stop following product", "product notifications opt-out", "disable product messages", "cancel product alerts",
+      "remove product notifications", "unsubscribe product updates", "stop product subscription", "product alert unsubscribe", "product push opt-out",
+      "disable product tracking", "stop receiving product alerts", "unsubscribe from product notifications", "remove product messages", "product notifications cancellation"
+    ]
+  }
+}

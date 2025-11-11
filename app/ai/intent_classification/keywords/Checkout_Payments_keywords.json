@@ -1,0 +1,194 @@
+{
+  "CHECKOUT_INITIATE": {
+    "priority": 1,
+    "keywords": [
+      "checkout", "start checkout", "begin checkout", "proceed to checkout", "initiate checkout",
+      "start payment", "checkout process", "go to checkout", "begin payment", "start order",
+      "place order", "begin purchase", "checkout now", "start billing", "proceed to payment",
+      "begin transaction", "initiate payment", "checkout page", "start order process", "payment process"
+    ]
+  },
+  "CHECKOUT_CONFIRM": {
+    "priority": 2,
+    "keywords": [
+      "confirm checkout", "confirm order", "finalize checkout", "complete checkout", "checkout confirmation",
+      "confirm purchase", "place order confirmation", "order finalize", "confirm payment", "complete order",
+      "finalize order", "checkout final", "submit order", "confirm transaction", "checkout complete",
+      "approve checkout", "order confirmation", "complete purchase", "checkout review", "final order confirm"
+    ]
+  },
+  "CHECKOUT_ADDRESS": {
+    "priority": 3,
+    "keywords": [
+      "checkout address", "enter address", "shipping address", "billing address", "provide address",
+      "delivery address", "update address", "address details", "confirm address", "address info",
+      "enter shipping details", "billing info", "address selection", "select address", "update shipping address",
+      "checkout location", "delivery info", "address confirmation", "checkout details", "address entry"
+    ]
+  },
+  "CHECKOUT_PAYMENT": {
+    "priority": 4,
+    "keywords": [
+      "checkout payment", "make payment", "choose payment method", "payment options", "pay now",
+      "proceed to payment", "select payment", "payment page", "complete payment", "payment details",
+      "enter payment info", "confirm payment", "payment method selection", "payment process", "checkout billing",
+      "pay for order", "billing details", "process payment", "transaction page", "pay order"
+    ]
+  },
+  "ADD_NEW_ADDRESS": {
+    "priority": 5,
+    "keywords": [
+      "add address", "new address", "enter new address", "add shipping address", "add billing address",
+      "add delivery address", "insert address", "add location", "add address details", "save new address",
+      "create address", "enter shipping details", "input address", "add customer address", "add order address",
+      "add address info", "register address", "add address record", "address form", "add new location"
+    ]
+  },
+  "UPDATE_ADDRESS": {
+    "priority": 6,
+    "keywords": [
+      "update address", "change address", "edit address", "modify address", "update shipping address",
+      "update billing address", "change delivery address", "edit location", "update address details", "modify location",
+      "change address info", "update customer address", "edit shipping info", "update address record", "correct address",
+      "change address entry", "update address form", "modify address info", "edit address details", "update order address"
+    ]
+  },
+  "CHANGE_ADDRESS": {
+    "priority": 7,
+    "keywords": [
+      "change address", "switch address", "update delivery address", "change shipping address", "modify address",
+      "replace address", "select different address", "change billing address", "update location", "choose address",
+      "change shipping info", "update address entry", "switch shipping address", "change order address", "replace delivery address",
+      "change location info", "select new address", "modify customer address", "change address details", "update address selection"
+    ]
+  },
+  "DELETE_ADDRESS": {
+    "priority": 8,
+    "keywords": [
+      "delete address", "remove address", "remove shipping address", "delete billing address", "discard address",
+      "delete delivery address", "remove location", "delete address record", "clear address", "erase address",
+      "delete customer address", "remove address info", "delete address entry", "delete saved address", "delete order address",
+      "clear delivery info", "remove address details", "delete location info", "discard saved address", "delete shipping info"
+    ]
+  },
+  "PAYMENT_OPTIONS": {
+    "priority": 9,
+    "keywords": [
+      "payment options", "choose payment method", "select payment", "available payment methods", "payment choices",
+      "payment selection", "select payment option", "pick payment method", "payment types", "payment method list",
+      "choose method", "select billing method", "available options", "choose transaction method", "payment alternatives",
+      "payment selection page", "choose how to pay", "payment methods available", "choose payment type", "payment method choices"
+    ]
+  },
+  "CHANGE_PAYMENT_METHOD": {
+    "priority": 10,
+    "keywords": [
+      "change payment method", "switch payment method", "update payment method", "modify payment option", "select new payment method",
+      "replace payment method", "change how to pay", "choose different payment", "change billing method", "update billing option",
+      "edit payment method", "switch billing method", "change transaction method", "select another payment", "replace billing method",
+      "change payment type", "update payment selection", "modify billing method", "choose new payment method", "alter payment method"
+    ]
+  },
+  "UPDATE_PAYMENT_METHOD": {
+    "priority": 11,
+    "keywords": [
+      "update payment method", "modify payment option", "edit payment method", "update billing method", "change payment method",
+      "update payment selection", "update transaction method", "update payment info", "edit payment option", "update payment type",
+      "update payment settings", "modify billing method", "change billing option", "update card info", "update account payment",
+      "edit billing info", "adjust payment method", "update chosen method", "update payment details", "modify transaction method"
+    ]
+  },
+  "PAYMENT_SUCCESS": {
+    "priority": 12,
+    "keywords": [
+      "payment success", "payment completed", "payment successful", "transaction success", "order paid",
+      "payment confirmed", "payment done", "payment processed", "purchase successful", "transaction completed",
+      "payment received", "order payment confirmed", "payment finalized", "payment accepted", "checkout successful",
+      "payment status success", "successful transaction", "payment processed successfully", "payment verified", "order payment successful"
+    ]
+  },
+  "PAYMENT_FAILED_HELP": {
+    "priority": 13,
+    "keywords": [
+      "payment failed", "payment error", "transaction failed", "payment issue", "checkout failed",
+      "payment not processed", "payment problem", "payment unsuccessful", "unable to pay", "payment declined",
+      "failed transaction", "payment assistance", "troubleshoot payment", "help with payment", "fix payment issue",
+      "payment not completed", "payment failure", "payment retry", "resolve payment problem", "support for payment failure"
+    ]
+  },
+  "PAYMENT_PENDING": {
+    "priority": 14,
+    "keywords": [
+      "payment pending", "awaiting payment", "payment in progress", "transaction pending", "pending transaction",
+      "pending order payment", "payment not completed", "payment awaiting", "checkout pending", "payment processing",
+      "awaiting transaction", "pending checkout", "payment waiting", "payment status pending", "payment in queue",
+      "pending purchase", "payment not finalized", "transaction in progress", "waiting for payment", "pending payment confirmation"
+    ]
+  },
+  "PAYMENT_RECEIPT": {
+    "priority": 15,
+    "keywords": [
+      "payment receipt", "order receipt", "transaction receipt", "get receipt", "download receipt",
+      "payment confirmation", "print receipt", "view receipt", "receive receipt", "payment slip",
+      "order confirmation receipt", "receipt download", "payment voucher", "checkout receipt", "transaction confirmation",
+      "generate receipt", "receipt info", "payment record", "order receipt details", "download payment receipt"
+    ]
+  },
+  "PAYMENT_HELP": {
+    "priority": 16,
+    "keywords": [
+      "payment help", "help with payment", "payment assistance", "support payment", "payment troubleshooting",
+      "payment guidance", "payment support", "checkout help", "transaction help", "assistance with payment",
+      "fix payment issue", "help with checkout", "payment issue help", "support for transaction", "payment problem help",
+      "troubleshoot transaction", "payment instructions", "payment query", "payment support service", "checkout guidance"
+    ]
+  },
+  "GIFT_CARD_BALANCE": {
+    "priority": 17,
+    "keywords": [
+      "gift card balance", "check gift card", "gift voucher balance", "gift card info", "check voucher",
+      "view gift card", "gift card amount", "gift voucher info", "check gift voucher", "gift card details",
+      "gift card status", "gift balance", "check remaining balance", "view voucher balance", "gift card check",
+      "gift card account", "gift voucher status", "check card amount", "gift certificate balance", "view gift amount"
+    ]
+  },
+  "GIFT_CARD_REDEEM": {
+    "priority": 18,
+    "keywords": [
+      "redeem gift card", "use gift card", "apply gift voucher", "redeem voucher", "gift card redemption",
+      "apply card", "redeem gift", "use voucher", "redeem gift certificate", "apply gift card",
+      "redeem card", "redeem coupon card", "gift card apply", "redeem voucher code", "apply voucher",
+      "redeem gift balance", "use gift certificate", "redeem gift points", "apply gift amount", "redeem gift amount"
+    ]
+  },
+  "APPLY_GIFT_CARD": {
+    "priority": 19,
+    "keywords": [
+      "apply gift card", "use gift card", "redeem gift card", "apply voucher", "apply gift voucher",
+      "apply card", "enter gift card", "apply certificate", "apply gift code", "use voucher",
+      "apply gift balance", "redeem gift", "redeem voucher", "apply coupon", "use gift certificate",
+      "add gift card", "redeem code", "apply gift points", "use card", "apply gift amount"
+    ]
+  },
+  "APPLY_COUPON": {
+    "priority": 3,
+    "keywords": [
+      "apply coupon", "apply coupon code", "use coupon", "use coupon code", "enter coupon",
+      "enter coupon code", "redeem coupon", "redeem coupon code", "apply discount",
+      "use discount code", "enter discount code", "apply promo", "apply promo code", "use promo code",
+      "redeem promo code", "apply promotional code", "apply offer code", "add coupon",
+      "add promo code", "redeem offer", "apply code", "apply voucher", "use voucher code",
+      "enter voucher code", "apply coupon save20", "apply code save20", "use code save20",
+      "enter code save20", "coupon code"
+    ]
+  },
+  "REMOVE_COUPON": {
+    "priority": 21,
+    "keywords": [
+      "remove coupon", "delete promo code", "remove discount code", "remove offer", "cancel coupon",
+      "discard promo code", "delete discount", "remove promotional code", "delete coupon", "remove code",
+      "cancel discount", "remove voucher", "delete offer code", "discard coupon", "remove promo",
+      "delete promo", "cancel promotion code", "remove applied code", "delete applied coupon", "remove discount"
+    ]
+  }
+}

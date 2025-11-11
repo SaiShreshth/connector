@@ -1,0 +1,96 @@
+
+{
+  "TRACK_USER_ACTION": {
+    "priority": 1,
+    "keywords": [
+      "track user action", "log user activity", "monitor user behavior", "user action tracking",
+      "capture user clicks", "record user interaction", "track clicks", "track page visit",
+      "monitor session", "track user events", "user behavior analysis", "log activity",
+      "track interactions", "monitor user journey", "user activity tracking", "track navigation",
+      "record clicks", "track user engagement", "log user behavior", "track user session",
+      "analyze user actions", "track interactions online", "monitor click patterns", "user action log",
+      "track online behavior", "observe user behavior", "track behavior events", "track activity online"
+    ]
+  },
+  "TRACK_SEARCH_QUERY": {
+    "priority": 2,
+    "keywords": [
+      "track search query", "monitor searches", "log user search", "record search activity",
+      "track query", "capture search terms", "track search behavior", "search logging",
+      "analyze search terms", "track search history", "monitor search patterns", "track keyword search",
+      "search query tracking", "log queries", "record search actions", "track searches online",
+      "track popular queries", "track user queries", "monitor query patterns", "search analysis",
+      "track searches behavior", "observe search queries", "track search activity online",
+      "analyze search behavior", "search behavior tracking", "track query trends", "record query usage"
+    ]
+  },
+  "TRACK_CART_ABANDONMENT": {
+    "priority": 3,
+    "keywords": [
+      "track cart abandonment", "monitor abandoned carts", "log checkout drops", "track unfinished purchases",
+      "record abandoned items", "analyze cart exits", "track shopping cart loss", "cart abandonment tracking",
+      "monitor cart behavior", "capture abandoned carts", "track cart drop-offs", "cart analysis",
+      "track incomplete orders", "observe abandoned carts", "track shopping abandonment", "record checkout abandonment",
+      "track lost sales", "cart abandonment log", "monitor purchase drop", "track cart exit behavior",
+      "abandoned cart analysis", "track user checkout drops", "capture abandoned baskets",
+      "cart abandonment metrics", "track shopping cart abandonment", "monitor lost transactions",
+      "analyze abandoned carts", "log cart abandonment events"
+    ]
+  },
+  "VIEW_ANALYTICS": {
+    "priority": 4,
+    "keywords": [
+      "view analytics", "check reports", "see metrics", "analytics dashboard", "monitor analytics",
+      "view data insights", "analytics overview", "check statistics", "report viewing", "view metrics dashboard",
+      "review analytics", "inspect reports", "analytics summary", "track analytics data", "view performance metrics",
+      "dashboard view", "monitor KPIs", "analytics visualization", "check data overview", "review statistics",
+      "observe analytics trends", "track performance reports", "view analytics insights", "monitor trends",
+      "report overview", "analytics report access", "check analytics charts", "view data summary"
+    ]
+  },
+  "EXPORT_ANALYTICS": {
+    "priority": 5,
+    "keywords": [
+      "export analytics", "download reports", "export data", "export metrics", "save analytics",
+      "analytics export", "download statistics", "export dashboard data", "export KPIs", "export insights",
+      "save report", "download analytics file", "export analytics summary", "analytics report download",
+      "export charts", "download metrics report", "export data analysis", "save dashboard data", "export performance",
+      "download analytics insights", "export analytics log", "save metrics file", "export data trends",
+      "analytics export tool", "download report summary", "export business analytics", "export insights file"
+    ]
+  },
+  "LISTEN_BEHAVIOR": {
+    "priority": 6,
+    "keywords": [
+      "listen behavior", "monitor user activity", "capture behavior", "observe user actions",
+      "behavior tracking", "log user behavior", "track actions", "behavior analytics", "monitor interactions",
+      "analyze user behavior", "listen to user events", "track engagement patterns", "observe navigation",
+      "record user behavior", "track activity online", "listen to clicks", "monitor user flow", "behavior monitoring",
+      "log interactions", "observe session patterns", "analyze engagement", "behavior insight", "track navigation trends",
+      "capture online behavior", "behavior event logging", "monitor user journey", "observe clicks and activity"
+    ]
+  },
+  "TRACK_CONVERSION": {
+    "priority": 7,
+    "keywords": [
+      "track conversion", "conversion tracking", "monitor sales conversion", "log conversion events",
+      "track purchases", "record conversions", "analyze conversion rate", "conversion analytics",
+      "track successful purchases", "monitor checkout conversion", "capture sales data", "conversion metrics",
+      "track leads to sales", "conversion monitoring", "record purchase events", "track conversion funnel",
+      "conversion rate tracking", "analyze purchase behavior", "conversion report", "track revenue conversion",
+      "conversion logging", "monitor conversion trends", "observe conversion patterns", "conversion insight",
+      "track online conversion", "analyze sales conversion", "conversion event logging", "measure conversion rate"
+    ]
+  },
+  "TRACK_PERFORMANCE": {
+    "priority": 8,
+    "keywords": [
+      "track performance", "monitor KPIs", "performance metrics", "analyze performance", "log system performance",
+      "track efficiency", "monitor success metrics", "performance tracking", "review KPIs", "track operational metrics",
+      "performance analysis", "monitor results", "track team performance", "performance measurement", "observe results",
+      "record performance data", "performance dashboard", "track output metrics", "evaluate performance", "monitor efficiency",
+      "performance reporting", "track business metrics", "analyze operational performance", "performance log",
+      "track workflow efficiency", "monitor performance indicators", "review system performance", "track execution metrics"
+    ]
+  }
+}

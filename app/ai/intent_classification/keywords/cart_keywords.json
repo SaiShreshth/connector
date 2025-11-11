@@ -1,0 +1,156 @@
+{
+  "ADD_TO_CART": {
+    "priority": 1,
+    "keywords": [
+      "add to cart", "put in cart", "buy now", "add product", "insert item",
+      "purchase", "add to basket", "shop item", "order now", "include in cart",
+      "add this product", "add item to cart", "place in cart", "cart this product", "add to shopping cart",
+      "add selected item", "add chosen item", "add to checkout", "add product to basket", "add to order"
+    ]
+  },
+  "REMOVE_FROM_CART": {
+    "priority": 2,
+    "keywords": [
+      "remove from cart", "delete item", "remove product", "delete from basket", "take out item",
+      "discard product", "remove it", "remove this", "drop item", "remove selection",
+      "remove from shopping cart", "delete selected item", "discard from cart", "remove chosen product", "take out from cart",
+      "delete product from cart", "remove product item", "clear from cart", "remove added item", "remove from checkout"
+    ]
+  },
+  "UPDATE_CART_QUANTITY": {
+    "priority": 3,
+    "keywords": [
+      "update quantity", "change quantity", "adjust quantity", "modify cart", "edit cart item",
+      "update item count", "increase quantity", "decrease quantity", "change amount", "set quantity",
+      "edit quantity", "adjust item count", "update product quantity", "modify item amount", "change item quantity",
+      "increase item count", "decrease item count", "quantity adjustment", "update cart numbers", "change cart quantity"
+    ]
+  },
+  "VIEW_CART": {
+    "priority": 1,
+    "keywords": [
+      "view cart", "show cart", "my cart", "checkout cart", "open cart",
+      "display cart", "see cart items", "look at cart", "cart overview", "cart page",
+      "check cart", "view shopping cart", "inspect cart", "cart contents", "cart items list",
+      "cart summary", "review cart", "browse cart", "cart view", "show shopping cart",
+      "show my cart", "view my cart", "see my cart", "check my cart", "open my cart"
+    ]
+  },
+  "EMPTY_CART": {
+    "priority": 5,
+    "keywords": [
+      "empty cart", "clear cart", "remove all items", "delete all products", "clear shopping cart",
+      "reset cart", "cart cleanup", "remove everything", "discard all items", "clear basket",
+      "delete all items", "empty basket", "cart reset", "remove all cart items", "wipe cart",
+      "cart purge", "clear all products", "empty my cart", "remove all from cart", "clear cart contents"
+    ]
+  },
+  "CART_TOTAL": {
+    "priority": 6,
+    "keywords": [
+      "cart total", "total cost", "total amount", "checkout total", "view total",
+      "total price", "total in cart", "sum of items", "cart price", "order total",
+      "cart summary total", "calculate total", "check cart total", "total bill", "total purchase",
+      "total shopping", "total cost in cart", "final total", "cart value", "total item price"
+    ]
+  },
+  "CART_ITEM_DETAILS": {
+    "priority": 7,
+    "keywords": [
+      "cart item details", "item info in cart", "product details in cart", "check cart item", "cart product info",
+      "view item details", "cart item information", "details of item in cart", "product info cart", "inspect cart item",
+      "item overview cart", "cart item summary", "view product in cart", "check item info", "cart item lookup",
+      "cart item specifics", "product description in cart", "item data in cart", "cart product details", "cart item report"
+    ]
+  },
+  "SAVE_FOR_LATER": {
+    "priority": 8,
+    "keywords": [
+      "save for later", "add to wishlist", "move to wishlist", "bookmark item", "keep for later",
+      "save item", "save product", "store for later", "hold for later", "put aside",
+      "save selection", "add to saved items", "save to favorites", "set aside item", "mark for later",
+      "wishlist later", "save for future", "add to watchlist", "reserve item", "keep in wishlist"
+    ]
+  },
+  "MOVE_TO_CART": {
+    "priority": 9,
+    "keywords": [
+      "move to cart", "add from wishlist", "move item to cart", "transfer to cart", "place in cart",
+      "cart it", "add selected item to cart", "move saved item", "move to basket", "move product to cart",
+      "transfer saved product", "cart this item", "move chosen product", "send to cart", "add item from wishlist",
+      "bring to cart", "shift to cart", "move item from wishlist", "transfer to basket", "add saved product to cart"
+    ]
+  },
+  "MOVE_TO_WISHLIST": {
+    "priority": 10,
+    "keywords": [
+      "move to wishlist", "save to wishlist", "add to wishlist", "move item to wishlist", "bookmark item",
+      "wish this product", "save selected item", "transfer to wishlist", "send to wishlist", "put in wishlist",
+      "add to saved items", "move product to wishlist", "set aside", "wishlist this", "keep in wishlist",
+      "mark as favorite", "save for future", "wishlist transfer", "move chosen item", "add to favorites"
+    ]
+  },
+  "GIFT_WRAP": {
+    "priority": 11,
+    "keywords": [
+      "gift wrap", "wrap as gift", "gift packaging", "gift packing", "gift wrap option",
+      "wrap product", "add gift wrap", "gift wrapping service", "gift package", "present wrap",
+      "gift wrap request", "wrap for gift", "gift presentation", "wrap item", "gift packaging option",
+      "package as gift", "wrap purchase", "gift wrap product", "gift wrap service", "gift pack"
+    ]
+  },
+  "ADD_NOTE": {
+    "priority": 12,
+    "keywords": [
+      "add note", "leave note", "order note", "special instructions", "add comment",
+      "note for seller", "write note", "add remark", "include note", "add message",
+      "insert note", "order instructions", "attach note", "customer note", "add info",
+      "add remark to order", "write message", "add comment to order", "send note", "add instruction"
+    ]
+  },
+  "VIEW_RECENTLY_VIEWED": {
+    "priority": 13,
+    "keywords": [
+      "view recently viewed", "recently viewed items", "see recently viewed", "recently checked items", "view history",
+      "recently seen products", "recent items", "recently viewed products", "recent activity", "view recent items",
+      "view last seen", "check recently viewed", "recent products", "view browsing history", "recently viewed list",
+      "last viewed items", "recently seen", "recently browsed", "recently viewed catalog", "view recently seen products"
+    ]
+  },
+  "CLEAR_RECENTLY_VIEWED": {
+    "priority": 14,
+    "keywords": [
+      "clear recently viewed", "delete browsing history", "clear history", "remove recently viewed", "reset recently viewed",
+      "clear recent items", "delete recent products", "remove history", "clear recently seen", "erase recently viewed",
+      "reset history", "clear browsing history", "clear last viewed", "wipe recent items", "delete recently viewed list",
+      "reset recently browsed", "remove last viewed", "clear recently viewed products", "reset browsing history", "erase recent items"
+    ]
+  },
+  "ADD_TO_WISHLIST": {
+    "priority": 15,
+    "keywords": [
+      "add to wishlist", "save for later", "favourite item", "bookmark item", "add to favourites",
+      "wishlist it", "add this product to wishlist", "save product", "wish this", "mark favourite",
+      "add selected item to wishlist", "add to saved items", "wishlist this product", "keep in wishlist", "add to favorites",
+      "add item for later", "save in wishlist", "wish list add", "save chosen product", "add item to favourites"
+    ]
+  },
+  "REMOVE_FROM_WISHLIST": {
+    "priority": 16,
+    "keywords": [
+      "remove from wishlist", "delete from wishlist", "remove favourite", "unwish", "remove bookmark",
+      "delete favourite", "discard from wishlist", "remove from favourites", "unmark item", "remove saved item",
+      "delete from favourites", "remove from saved items", "remove wishlist item", "remove this item from wishlist", "delete saved product",
+      "unfavourite item", "remove from wish list", "delete chosen item", "remove selected product", "remove bookmarked item","remove shoes from my cart"
+    ]
+  },
+  "VIEW_WISHLIST": {
+    "priority": 17,
+    "keywords": [
+      "view wishlist", "show wishlist", "my wishlist", "display wishlist", "look at wishlist",
+      "wishlist overview", "wishlist page", "see saved items", "favourite items", "wishlist list",
+      "wishlist contents", "check wishlist", "browse wishlist", "review wishlist", "wishlist details",
+      "wishlist summary", "inspect wishlist", "wishlist products", "wishlist items view", "view saved products"
+    ]
+  }
+}

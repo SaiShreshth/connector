@@ -1,0 +1,36 @@
+{
+  "experiment_id": "exp_001_compare_embedding_vs_keyword",
+  "description": "Compare embedding-based intent matcher vs keyword-based matcher for chatNShop classify endpoint",
+  "use_bandit": true,
+  "variants": [
+    {
+      "name": "keyword_matcher",
+      "traffic_pct": 50,
+      "model": "gpt-4", 
+      "prompt_template": "Use the keyword-matcher pipeline. Given user input: \"${user_input}\", extract intent using keyword rules and return the canonical intent id and short reason."
+    },
+    {
+      "name": "embedding_matcher",
+      "traffic_pct": 50,
+      "model": "gpt-4-turbo",
+      "prompt_template": "Use the embedding-matcher pipeline (semantic). Given user input: \"${user_input}\", compute embedding similarity and return the best-matching intent id and short reason."
+    }
+  ],
+  "logging": {
+    "events_csv": "app/core/ab_testing/ab_events.csv",
+    "report_md": "app/core/ab_testing/ab_report.md"
+  },
+  "cost": {
+    "model_prices_per_1k_tokens": {
+      "gpt-4": 0.03,
+      "gpt-4-turbo": 0.015
+    }
+  },
+  "sampling": {
+    "deterministic_by_user_id": false
+  },
+  "notes": {
+    "reward": "result_label should be 'success' when predicted intent matches ground truth",
+    "integration": "ab_framework.py will need this file copied/activated as experiment_config.json or the code adjusted to point to this path"
+  }
+}

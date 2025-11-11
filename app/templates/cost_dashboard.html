@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LLM Cost & Monitoring Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body { font-family: "Inter", sans-serif; background:#f7f9fc; margin:40px; color:#222; }
+    h1 { color:#2563eb; text-align:center; }
+    .metrics { display:flex; justify-content:center; gap:30px; margin:20px 0; flex-wrap:wrap; }
+    .metric { background:white; padding:20px 30px; border-radius:16px; box-shadow:0 4px 8px rgba(0,0,0,0.05); text-align:center; min-width:150px; }
+    .charts { display:grid; grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); gap:30px; margin:30px 0; }
+    .chart-container { background:white; padding:20px; border-radius:16px; box-shadow:0 4px 8px rgba(0,0,0,0.05); }
+    canvas { max-width:100%; }
+    .chart-title { font-size:18px; font-weight:600; margin-bottom:15px; color:#333; text-align:center; }
+    .nav-links { text-align:center; margin:20px 0; }
+    .nav-links a { color:#2563eb; text-decoration:none; margin:0 15px; padding:8px 16px; border:1px solid #2563eb; border-radius:6px; display:inline-block; }
+    .nav-links a:hover { background:#2563eb; color:white; }
+  </style>
+</head>
+<body>
+  <h1>💰 LLM Cost & Monitoring Dashboard</h1>
+
+  <div class="nav-links">
+    <a href="/dashboard/cost">Cost Dashboard</a>
+    <a href="/dashboard/feedback-review">Feedback Review</a>
+  </div>
+
+  <div class="metrics">
+    <div class="metric">
+      <h2>Daily Tokens</h2>
+      <p style="font-size:24px; font-weight:bold;">{{ daily.tokens }}</p>
+      <h3>Cost: ${{ "%.5f"|format(daily.cost) }}</h3>
+    </div>
+    <div class="metric">
+      <h2>Monthly Tokens</h2>
+      <p style="font-size:24px; font-weight:bold;">{{ monthly.tokens }}</p>
+      <h3>Cost: ${{ "%.5f"|format(monthly.cost) }}</h3>
+    </div>
+    <div class="metric">
+      <h2>Daily Requests</h2>
+      <p style="font-size:24px; font-weight:bold;">{{ daily.requests }}</p>
+    </div>
+    <div class="metric">
+      <h2>Monthly Requests</h2>
+      <p style="font-size:24px; font-weight:bold;">{{ monthly.requests }}</p>
+    </div>
+  </div>
+
+  <div class="charts">
+    <div class="chart-container">
+      <div class="chart-title">Cost Comparison (Daily vs Monthly)</div>
+      <canvas id="costChart"></canvas>
+    </div>
+
+    <div class="chart-container">
+      <div class="chart-title">Top 10 Intent Distribution (Today)</div>
+      <canvas id="intentChart"></canvas>
+    </div>
+
+    <div class="chart-container">
+      <div class="chart-title">Confidence Score Distribution (Today)</div>
+      <canvas id="confidenceChart"></canvas>
+    </div>
+  </div>
+
+  <script>
+    // Cost Chart
+    const costCtx = document.getElementById('costChart');
+    new Chart(costCtx, {
+      type: 'bar',
+      data: {
+        labels: ['Daily', 'Monthly'],
+        datasets: [{
+          label: 'Cost (USD)',
+          data: [{{ daily.cost }}, {{ monthly.cost }}],
+          backgroundColor: ['#2563eb', '#60a5fa'],
+          borderRadius: 8
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: { legend: { display: false } },
+        scales: { y: { beginAtZero: true } }
+      }
+    });
+
+    // Intent Distribution Chart
+    const intentCtx = document.getElementById('intentChart');
+    const intentLabels = {{ intent_distribution.labels|tojson|safe }};
+    const intentCounts = {{ intent_distribution.counts|tojson|safe }};
+    
+    if (intentLabels && intentLabels.length > 0) {
+      new Chart(intentCtx, {
+        type: 'doughnut',
+        data: {
+          labels: intentLabels,
+          datasets: [{
+            data: intentCounts,
+            backgroundColor: [
+              '#2563eb', '#60a5fa', '#93c5fd', '#dbeafe',
+              '#34d399', '#6ee7b7', '#a7f3d0', '#d1fae5',
+              '#fbbf24', '#fcd34d'
+            ]
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: { position: 'bottom' }
+          }
+        }
+      });
+    } else {
+      intentCtx.parentElement.innerHTML = '<div style="text-align:center; padding:40px; color:#666;">No intent data available yet</div>';
+    }
+
+    // Confidence Distribution Chart
+    const confCtx = document.getElementById('confidenceChart');
+    const confLabels = {{ confidence_distribution.labels|tojson|safe }};
+    const confPercentages = {{ confidence_distribution.percentages|tojson|safe }};
+    
+    if (confLabels && confLabels.length > 0) {
+      new Chart(confCtx, {
+        type: 'bar',
+        data: {
+          labels: confLabels,
+          datasets: [{
+            label: 'Percentage (%)',
+            data: confPercentages,
+            backgroundColor: '#2563eb',
+            borderRadius: 8
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: { display: false }
+          },
+          scales: {
+            y: {
+              beginAtZero: true,
+              max: 100,
+              ticks: { callback: function(value) { return value + '%'; } }
+            }
+          }
+        }
+      });
+    } else {
+      confCtx.parentElement.innerHTML = '<div style="text-align:center; padding:40px; color:#666;">No confidence data available yet</div>';
+    }
+  </script>
+</body>
+</html>

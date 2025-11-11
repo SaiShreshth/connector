@@ -1,0 +1,75 @@
+{
+  "ADD_REVIEW": {
+    "priority": 1,
+    "keywords": [
+      "add review", "write review", "submit review", "post review", "leave a review",
+      "review product", "give review", "create review", "add product review", "share review",
+      "write product feedback", "submit product review", "rate and review", "add feedback", "review submission",
+      "review posting", "provide review", "write opinion", "product review entry", "publish review"
+    ]
+  },
+  "VIEW_REVIEWS": {
+    "priority": 1,
+    "keywords": [
+      "view reviews", "see reviews", "check reviews", "read reviews", "review list",
+      "product reviews", "customer reviews", "user reviews", "reviews overview", "view feedback",
+      "check product reviews", "read product reviews", "reviews page", "see customer feedback", "browse reviews",
+      "review history", "review summary", "reviews for product", "user feedback", "product feedback list",
+      "show reviews", "show reviews for", "see reviews for", "check reviews for", "read reviews for"
+    ]
+  },
+  "EDIT_REVIEW": {
+    "priority": 3,
+    "keywords": [
+      "edit review", "update review", "modify review", "change review", "correct review",
+      "amend review", "edit product review", "update feedback", "modify feedback", "change product review",
+      "review update", "edit rating", "revise review", "update opinion", "edit user review",
+      "review modification", "change feedback", "edit customer review", "adjust review", "review correction"
+    ]
+  },
+  "DELETE_REVIEW": {
+    "priority": 4,
+    "keywords": [
+      "delete review", "remove review", "erase review", "delete feedback", "remove product review",
+      "delete user review", "clear review", "delete rating", "remove feedback", "delete opinion",
+      "discard review", "delete review entry", "remove review record", "erase feedback", "delete review online",
+      "delete product feedback", "remove review from site", "delete user feedback", "clear product review", "delete review submission"
+    ]
+  },
+  "PRODUCT_AVERAGE_REVIEW": {
+    "priority": 5,
+    "keywords": [
+      "average review", "product average rating", "average rating", "mean review score", "average feedback",
+      "review score average", "product review average", "average customer rating", "average product review", "average star rating",
+      "overall review score", "average review value", "mean product rating", "average rating score", "product rating average",
+      "review summary average", "average rating info", "average user review", "product feedback average", "average stars"
+    ]
+  },
+  "PRODUCT_RATING": {
+    "priority": 6,
+    "keywords": [
+      "product rating", "check rating", "view rating", "see rating", "product stars",
+      "rating info", "product score", "customer rating", "user rating", "rating overview",
+      "check product score", "product star rating", "rating details", "review rating", "product rating info",
+      "product evaluation", "rating page", "product feedback score", "rating summary", "star review"
+    ]
+  },
+  "FLAG_REVIEW": {
+    "priority": 7,
+    "keywords": [
+      "flag review", "report review", "mark review", "report inappropriate review", "flag inappropriate",
+      "report abuse", "flag offensive review", "mark review as inappropriate", "report fake review", "flag spam review",
+      "flag customer review", "report misleading review", "report review content", "flag review for review", "report fraudulent review",
+      "mark review as fake", "report offensive content", "flag feedback", "report suspicious review", "mark review as spam"
+    ]
+  },
+  "REVIEW_RECOMMENDATION": {
+    "priority": 8,
+    "keywords": [
+      "review recommendation", "recommend review", "suggest review", "review tips", "review advice",
+      "recommended reviews", "review suggestions", "top reviews", "highlighted review", "recommended products",
+      "review highlights", "customer recommended review", "editor review recommendation", "review guidance", "recommend user reviews",
+      "reviewed recommendations", "advised review", "recommend top reviews", "review selection", "review choice"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+syntax = "proto3";
+package app.ai.protos;
+
+import "google/protobuf/struct.proto";
+
+message RuleBasedResult {
+  string action_code = 1;
+  double confidence = 2;
+  repeated string matched_keywords = 3;
+}
+
+message QueueMessage {
+  string request_id = 1;
+  string user_query = 2;
+  string session_id = 3;
+  string user_id = 4;
+  repeated google.protobuf.Struct conversation_history = 5;
+  RuleBasedResult rule_based_result = 6;
+  string timestamp = 7;
+  string priority = 8; // 'normal' | 'high'
+  google.protobuf.Struct metadata = 9;
+}
+
+message BatchPayload {
+  string batch_id = 1;
+  string timestamp = 2;
+  repeated QueueMessage messages = 3;
+}

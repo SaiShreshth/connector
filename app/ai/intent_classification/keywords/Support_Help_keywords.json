@@ -1,0 +1,164 @@
+{
+  "CONTACT_SUPPORT": {
+    "priority": 1,
+    "keywords": [
+      "contact support", "reach support", "customer support", "support help", "help desk",
+      "contact help", "support contact", "get support", "ask support", "connect to support",
+      "support request", "support query", "contact customer care", "support assistance", "support service",
+      "talk to support", "contact service team", "help contact", "support hotline", "reach customer service"
+    ]
+  },
+  "HELP_GENERAL": {
+    "priority": 2,
+    "keywords": [
+      "general help", "help me", "assistance", "support info", "get help",
+      "help center", "need help", "guidance", "help support", "general support",
+      "help instructions", "assistance request", "help with issue", "helpdesk", "support guidance",
+      "provide help", "general assistance", "help info", "help resources", "ask for help"
+    ]
+  },
+  "LIVE_CHAT": {
+    "priority": 3,
+    "keywords": [
+      "live chat", "chat support", "online chat", "talk online", "customer chat",
+      "chat help", "instant chat", "chat with support", "real-time chat", "support chat",
+      "chat now", "chat assistance", "chat service", "connect via chat", "chat inquiry",
+      "online support chat", "live assistance", "chat customer service", "chat with agent", "start chat"
+    ]
+  },
+  "CALL_SUPPORT": {
+    "priority": 4,
+    "keywords": [
+      "call support", "phone support", "customer service call", "support hotline", "talk to support",
+      "contact by phone", "call help desk", "support phone number", "call assistance", "phone help",
+      "contact support line", "help by phone", "support contact call", "call customer care", "phone customer service",
+      "make support call", "call support agent", "reach support by phone", "telephone support", "speak to support"
+    ]
+  },
+  "REQUEST_CALLBACK": {
+    "priority": 5,
+    "keywords": [
+      "request callback", "call me back", "callback support", "ask for callback", "schedule call",
+      "request call", "get a callback", "support callback", "call back request", "phone back",
+      "schedule support call", "callback assistance", "request call support", "call me assistance", "call back help",
+      "support call request", "request help callback", "schedule customer call", "callback service", "callback agent"
+    ]
+  },
+  "FEEDBACK_SUBMIT": {
+    "priority": 6,
+    "keywords": [
+      "submit feedback", "give feedback", "feedback form", "leave feedback", "feedback request",
+      "provide feedback", "send feedback", "report feedback", "feedback submission", "share feedback",
+      "feedback help", "feedback support", "feedback comments", "feedback message", "feedback review",
+      "customer feedback", "feedback issue", "feedback suggestion", "send review", "feedback input"
+    ]
+  },
+  "REPORT_ISSUE": {
+    "priority": 7,
+    "keywords": [
+      "report issue", "raise issue", "file complaint", "report problem", "issue report",
+      "problem report", "submit issue", "report bug", "report error", "complaint submission",
+      "report support issue", "issue logging", "report service problem", "report concern", "log issue",
+      "report customer problem", "issue feedback", "file support request", "report incident", "report trouble"
+    ]
+  },
+  "REPORT_PRODUCT": {
+    "priority": 8,
+    "keywords": [
+      "report product", "product issue", "product complaint", "product problem", "report defective product",
+      "faulty product report", "product feedback", "product concern", "issue with product", "product support request",
+      "report item", "problem with product", "file product issue", "product error", "report product defect",
+      "product trouble", "report damaged product", "product review issue", "notify product problem", "report product error"
+    ]
+  },
+  "SECURITY_HELP": {
+    "priority": 9,
+    "keywords": [
+      "security help", "account security", "security support", "security issue", "security problem",
+      "security assistance", "help with security", "security guidance", "security query", "account safety",
+      "report security issue", "secure account help", "security concern", "security instructions", "security alert support",
+      "security advice", "security assistance request", "help with account security", "support for security", "security troubleshooting"
+    ]
+  },
+  "PAYMENT_HELP": {
+    "priority": 10,
+    "keywords": [
+      "payment help", "payment support", "billing help", "payment issue", "payment problem",
+      "help with payment", "payment assistance", "payment guidance", "billing issue", "billing support",
+      "help with billing", "billing problem", "payment troubleshooting", "support payment", "resolve payment issue",
+      "payment inquiry", "payment questions", "payment error help", "support billing", "payment query"
+    ]
+  },
+  "FAQ_SHIPPING": {
+    "priority": 11,
+    "keywords": [
+      "shipping FAQ", "shipping questions", "shipping help", "delivery FAQ", "delivery questions",
+      "shipping info", "shipment FAQ", "shipping guidance", "frequently asked shipping questions", "FAQ on delivery",
+      "shipping policies", "delivery info", "delivery support", "shipping inquiry", "delivery help",
+      "shipment info", "delivery guidance", "shipping instructions", "shipping questions answered", "FAQ shipping policies"
+    ]
+  },
+  "FAQ_PAYMENT": {
+    "priority": 12,
+    "keywords": [
+      "payment FAQ", "billing FAQ", "payment questions", "billing questions", "FAQ on payment",
+      "payment help", "payment guidance", "billing help", "billing support", "FAQ on billing",
+      "frequently asked payment questions", "payment info", "billing info", "payment policies", "billing policies",
+      "payment troubleshooting", "billing guidance", "FAQ for billing", "FAQ payment support", "payment instructions"
+    ]
+  },
+  "FAQ_RETURNS": {
+    "priority": 13,
+    "keywords": [
+      "returns FAQ", "return questions", "return policy FAQ", "FAQ returns", "return help",
+      "returns info", "return guidance", "frequently asked return questions", "return policies", "FAQ on returns",
+      "return process FAQ", "returns support", "returns instructions", "returns troubleshooting", "return queries",
+      "return info help", "return FAQs", "return question answers", "FAQ for return process", "returns assistance"
+    ]
+  },
+  "FAQ_REFUND": {
+    "priority": 14,
+    "keywords": [
+      "refund FAQ", "refund questions", "refund policy FAQ", "FAQ refunds", "refund help",
+      "refund info", "refund guidance", "frequently asked refund questions", "refund procedures", "FAQ on refunds",
+      "refund support", "refund process info", "refund troubleshooting", "refund request help", "refund instructions",
+      "FAQ for refund", "refund queries", "refund guidance info", "refund assistance", "refund answers"
+    ]
+  },
+  "FAQ_ACCOUNT": {
+    "priority": 15,
+    "keywords": [
+      "account FAQ", "account questions", "account help", "FAQ on account", "account support",
+      "account guidance", "account assistance", "frequently asked account questions", "account info", "account policies",
+      "account troubleshooting", "FAQ for account issues", "account instructions", "account queries", "account problem help",
+      "account info help", "account management FAQ", "account questions answered", "account FAQ support", "account guidance info"
+    ]
+  },
+  "FAQ_COUPON": {
+    "priority": 16,
+    "keywords": [
+      "coupon FAQ", "discount FAQ", "voucher FAQ", "FAQ on coupons", "coupon help",
+      "coupon questions", "frequently asked coupon questions", "voucher info", "discount info", "coupon guidance",
+      "FAQ on discount", "coupon support", "coupon policies", "voucher support", "discount FAQ support",
+      "FAQ voucher help", "discount questions answered", "coupon instructions", "coupon assistance", "coupon queries"
+    ]
+  },
+  "FAQ_DELIVERY": {
+    "priority": 17,
+    "keywords": [
+      "delivery FAQ", "delivery questions", "shipping FAQ", "shipping questions", "FAQ on delivery",
+      "delivery help", "delivery guidance", "delivery info", "delivery support", "delivery policies",
+      "delivery troubleshooting", "FAQ shipping info", "delivery queries", "shipping guidance", "FAQ for shipping",
+      "shipment FAQ", "delivery instructions", "delivery assistance", "delivery questions answered", "delivery support info"
+    ]
+  },
+  "FAQ_TECH_SUPPORT": {
+    "priority": 18,
+    "keywords": [
+      "tech support FAQ", "technical support FAQ", "technical help", "tech help", "FAQ technical support",
+      "technical assistance", "troubleshooting FAQ", "tech guidance", "technical support info", "FAQ tech support",
+      "tech issues FAQ", "technical queries", "technical questions FAQ", "FAQ troubleshooting", "tech problem help",
+      "tech support guidance", "technical assistance FAQ", "tech FAQ info", "FAQ for tech issues", "technical help support"
+    ]
+  }
+}

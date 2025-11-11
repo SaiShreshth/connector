@@ -1,0 +1,147 @@
+{
+  "SEARCH_PRODUCT": {
+    "priority": 1,
+    "keywords": [
+      "search product", "find product", "look for product", "product search", "search items",
+      "browse products", "locate product", "product lookup", "product finder", "search for item",
+      "search goods", "find item", "look up product", "product query", "shop for",
+      "search catalogue", "search online", "search shop", "search inventory", "find in store",
+      "explore products", "discover product", "search merchandise", "product browse", "product hunting",
+      "track product", "product list", "check product availability", "find specific product", "search item details",
+      "show me", "i want to buy", "i need to find", "get me some", "looking for", "i'm looking for",
+      "where can i find", "do you have", "got any", "check out", "browse"
+    ]
+  },
+  "SEARCH_CATEGORY": {
+    "priority": 2,
+    "keywords": [
+      "search category", "find category", "browse category", "look for category", "category search",
+      "search type", "product category", "category lookup", "explore category", "search class",
+      "search department", "search group", "category finder", "search sections", "shop by category",
+      "find type", "category browse", "search items by category", "category selector", "category search engine",
+      "discover category", "category exploration", "browse types", "category navigation", "category list",
+      "search product type", "search section", "category filter", "category options", "category items"
+    ]
+  },
+  "SEARCH_BRAND": {
+    "priority": 3,
+    "keywords": [
+      "search brand", "find brand", "brand search", "look for brand", "brand lookup",
+      "browse brands", "brand finder", "brand catalogue", "brand query", "search manufacturer",
+      "search label", "brand inventory", "brand shop", "search brand items", "brand products",
+      "brand selection", "brand search engine", "brand options", "shop brand", "brand search online",
+      "discover brand", "brand exploration", "brand browsing", "brand collection", "brand listing",
+      "brand items lookup", "find manufacturer", "brand products search", "track brand", "brand inventory lookup"
+    ]
+  },
+  "SEARCH_PRICE_RANGE": {
+    "priority": 4,
+    "keywords": [
+      "search price", "price range search", "find by price", "look by price", "price filter",
+      "price lookup", "product by cost", "search items by price", "price query", "price selection",
+      "browse by price", "price search tool", "price category", "price sort", "search within price",
+      "filter by price", "price search online", "item price search", "price range finder", "price band search",
+      "find by cost", "price bracket search", "price selection tool", "set price range", "search affordable items",
+      "search premium items", "price filter options", "check item price range", "sort by cost", "find products by budget"
+    ]
+  },
+  "FILTER_PRICE": {
+    "priority": 5,
+    "keywords": [
+      "filter by price", "price filter", "sort by price", "limit price", "set price range",
+      "price slider", "adjust price", "price selection", "price constraints", "price range filter",
+      "price bracket", "price options", "narrow by price", "filter cost", "price control",
+      "filter items by price", "filter products by price", "price filter tool", "price sorting", "price filter online",
+      "apply price filter", "price range adjust", "custom price filter", "price range selection", "select price band",
+      "price limiter", "price range narrowing", "price threshold", "sort items by cost", "filter cheap products"
+    ]
+  },
+  "FILTER_RATING": {
+    "priority": 6,
+    "keywords": [
+      "filter by rating", "rating filter", "sort by rating", "product rating", "customer rating",
+      "review filter", "top rated", "highest rated", "star rating filter", "filter products by stars",
+      "rating selection", "narrow by rating", "best rated", "select rating", "rating options",
+      "review rating filter", "rating threshold", "filter items by rating", "filter reviews by stars", "rating sort",
+      "apply rating filter", "filter by stars", "sort by customer reviews", "filter top products", "review score filter",
+      "star selection", "filter best reviews", "filter top rated items", "filter by review score", "select best rated"
+    ]
+  },
+  "SORT_PRICE": {
+    "priority": 7,
+    "keywords": [
+      "sort by price", "price sort", "arrange by price", "order by price", "price low to high",
+      "price high to low", "sort cheapest first", "sort expensive first", "price ascending", "price descending",
+      "price order", "sort product by price", "price ranking", "price sort tool", "sort items by price",
+      "price filter sort", "product price sort", "price range order", "sort products cheap to expensive", "sort products expensive to cheap",
+      "sort affordable first", "sort costly items first", "price sort online", "price sorting options", "product price ranking",
+      "sort by cost", "arrange items by cost", "order items by price", "sort items low to high", "sort items high to low"
+    ]
+  },
+  "SORT_POPULARITY": {
+    "priority": 8,
+    "keywords": [
+      "sort by popularity", "popular products", "most popular", "trending products", "hot items",
+      "top products", "best selling", "top sellers", "popular items", "sort items popular",
+      "sort trending", "most viewed", "sort hot products", "popular ranking", "popular selection",
+      "top rated items", "trending now", "popular products list", "customer favorites", "best sellers",
+      "sort by demand", "trending items", "popular choices", "highly searched", "top viewed items",
+      "sort by reviews", "hot selling products", "most purchased", "popular products online", "popular products today"
+    ]
+  },
+  "SORT_NEWEST": {
+    "priority": 9,
+    "keywords": [
+      "sort newest", "newest first", "latest products", "sort by newest",
+      "recently added", "latest items", "new arrivals first", "sort by recent",
+      "show newest products", "latest listings", "recent products first", "sort latest",
+      "new items first", "show recent items", "recent arrivals", "display newest products",
+      "view latest products", "sort by latest items", "recently added products", "latest arrivals",
+      "new arrivals", "recently launched", "show latest arrivals"
+    ]
+  },
+  "SORT_RATING": {
+    "priority": 10,
+    "keywords": [
+      "sort by rating", "highest rated first", "top rated products", "sort best reviews",
+      "customer rating sort", "product rating order", "sort top rated", "best rated items first",
+      "rating sort", "sort by stars", "highest stars first", "view top rated products",
+      "display products by rating", "sort products rating", "review score sort",
+      "show top rated items", "sort by review", "sort by customer rating", "product review order",
+      "best reviewed products", "top reviews first", "star rating sort", "sort according to rating"
+    ]
+  },
+  "SORT_RELEVANCE": {
+    "priority": 11,
+    "keywords": [
+      "sort by relevance", "most relevant first", "relevant products", "relevance order",
+      "show relevant items", "sort matching results", "best match first", "relevant product list",
+      "sort by match", "search relevance sort", "display most relevant", "sort according to relevance",
+      "product relevance sort", "item relevance", "sort by search relevance", "show best match",
+      "relevance ranking", "relevant items first", "sort top match", "sort by result relevance",
+      "sort search results", "match score sort", "sort according to match"
+    ]
+  },
+  "VIEW_GRID": {
+    "priority": 12,
+    "keywords": [
+      "view grid", "grid view", "show products in grid", "display in grid",
+      "grid layout", "grid format", "product grid view", "grid style display",
+      "see items in grid", "view items grid", "display items grid", "grid arrangement",
+      "product listing grid", "item grid", "show items in grid format", "grid view mode",
+      "grid display option", "grid product view", "products in grid layout", "see products grid",
+      "show products grid style"
+    ]
+  },
+  "VIEW_LIST": {
+    "priority": 13,
+    "keywords": [
+      "view list", "list view", "show products in list", "display in list",
+      "list layout", "list format", "product list view", "list style display",
+      "see items in list", "view items list", "display items list", "list arrangement",
+      "product listing list", "item list", "show items in list format", "list view mode",
+      "list display option", "list product view", "products in list layout", "see products list",
+      "show products list style"
+    ]
+  }
+}

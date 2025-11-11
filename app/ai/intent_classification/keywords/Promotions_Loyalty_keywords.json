@@ -1,0 +1,146 @@
+{
+  "VIEW_PROMOTIONS": {
+    "priority": 1,
+    "keywords": [
+      "view promotions", "see promotions", "browse promotions", "check promotions", "promotion list",
+      "promotion offers", "promotion details", "show promotions", "latest promotions", "current promotions",
+      "promotional offers", "view discounts", "promotion deals", "available promotions", "see offers",
+      "promotions catalog", "promotion events", "promotion info", "promotion page", "promotion section"
+    ]
+  },
+  "VIEW_COUPONS": {
+    "priority": 2,
+    "keywords": [
+      "view coupons", "see coupons", "browse coupons", "check coupons", "coupon list",
+      "available coupons", "coupon deals", "show coupons", "latest coupons", "current coupons",
+      "coupon offers", "coupon codes", "coupon details", "view discount codes", "coupon selection",
+      "available promo codes", "redeemable coupons", "coupon catalog", "coupon info", "coupon section"
+    ]
+  },
+  "APPLY_PROMO": {
+    "priority": 3,
+    "keywords": [
+      "apply promo", "use promo code", "enter promotion", "redeem promo", "apply discount",
+      "promo code apply", "apply voucher", "use coupon code", "apply promotional code", "redeem code",
+      "activate promo", "apply offer", "enter promo", "use discount code", "apply coupon",
+      "redeem promotion", "apply voucher code", "activate discount", "use promotion code", "apply deal"
+    ]
+  },
+  "REMOVE_PROMO": {
+    "priority": 4,
+    "keywords": [
+      "remove promo", "delete promo code", "remove discount", "remove coupon", "clear promo",
+      "remove promotion", "cancel promo code", "undo promo", "remove applied code", "delete voucher",
+      "clear discount", "remove offer", "remove promotion code", "cancel applied promo", "remove deal",
+      "undo discount code", "remove coupon code", "delete applied promo", "clear applied promo", "remove voucher code"
+    ]
+  },
+  "VIEW_SALE_COLLECTION": {
+    "priority": 5,
+    "keywords": [
+      "view sale collection", "see sale items", "browse sale collection", "check sale collection", "sale items list",
+      "sale catalog", "discounted collection", "sale products", "latest sale collection", "current sale items",
+      "sale deals", "sale offers", "view discounts", "sale section", "sale items overview",
+      "sale products list", "sale items page", "view discounted items", "sale items info", "promotional sale collection"
+    ]
+  },
+  "FLASH_SALE_INFO": {
+    "priority": 6,
+    "keywords": [
+      "flash sale info", "view flash sale", "flash sale details", "flash deals", "limited time sale",
+      "quick sale info", "instant sale", "hot sale deals", "flash offers", "flash discounts",
+      "current flash sale", "latest flash sale", "flash sale catalog", "flash sale page", "flash sale alert",
+      "flash sale products", "flash sale events", "flash sale section", "see flash sale", "flash sale info online"
+    ]
+  },
+  "PRICE_DROP_ALERTS": {
+    "priority": 7,
+    "keywords": [
+      "price drop alerts", "notify price drop", "price alert", "track price changes", "price notifications",
+      "price decrease alert", "get price alerts", "price drop notification", "watch price drop", "price change alert",
+      "price alert setup", "alert for discount", "price reduction alert", "track discounts", "price update notification",
+      "alert for price drop", "discount alerts", "price drop info", "notify on price change", "price monitoring"
+    ]
+  },
+  "VIEW_BESTSELLERS": {
+    "priority": 8,
+    "keywords": [
+      "view bestsellers", "see bestsellers", "browse top selling", "check bestsellers", "top selling products",
+      "popular products", "best selling items", "bestseller list", "bestseller catalog", "top products",
+      "most popular items", "bestsellers overview", "popular items list", "view top products", "trending products",
+      "best selling selection", "best sellers page", "bestseller info", "top selling collection", "bestseller section"
+    ]
+  },
+  "VIEW_NEW_ARRIVALS": {
+    "priority": 9,
+    "keywords": [
+      "view new arrivals", "see new arrivals", "browse new products", "check new arrivals", "latest arrivals",
+      "new product list", "new items", "new collection", "latest products", "new arrivals page",
+      "new arrivals catalog", "latest items", "newly arrived products", "new products overview", "new arrivals section",
+      "new arrivals info", "shop new arrivals", "recent products", "new arrival deals", "recently added items"
+    ]
+  },
+  "VIEW_FEATURED": {
+    "priority": 10,
+    "keywords": [
+      "view featured", "see featured products", "browse featured items", "check featured", "featured collection",
+      "featured catalog", "top picks", "highlighted products", "featured selection", "featured items list",
+      "special selection", "featured products page", "featured products info", "view recommended", "editor's picks",
+      "highlighted items", "featured products overview", "featured deals", "curated collection", "featured section"
+    ]
+  },
+  "VIEW_RECOMMENDED": {
+    "priority": 11,
+    "keywords": [
+      "view recommended", "see recommended products", "recommended items", "recommended for me", "browse recommendations",
+      "product suggestions", "recommended collection", "suggested items", "recommended page", "personalized recommendations",
+      "recommended deals", "recommended catalog", "view suggestions", "recommended products list", "suggested products",
+      "personalized products", "recommended selection", "recommended overview", "suggested collection", "recommended section"
+    ]
+  },
+  "VIEW_GIFT_OPTIONS": {
+    "priority": 12,
+    "keywords": [
+      "view gift options", "see gift items", "browse gifts", "gift selection", "gift products",
+      "gift ideas", "gift catalog", "gift collection", "gift suggestions", "gift deals",
+      "view gift collection", "gift page", "gift products list", "gift items overview", "shop gift items",
+      "gift selection catalog", "gift recommendations", "gift section", "view gift deals", "gift offers"
+    ]
+  },
+  "LOYALTY_POINTS": {
+    "priority": 13,
+    "keywords": [
+      "loyalty points", "reward points", "check points", "view points", "points balance",
+      "my points", "loyalty balance", "rewards info", "reward balance", "points overview",
+      "points summary", "earned points", "redeemable points", "check rewards points", "points account",
+      "loyalty rewards", "points info", "points history", "track points", "points total"
+    ]
+  },
+  "REDEEM_POINTS": {
+    "priority": 14,
+    "keywords": [
+      "redeem points", "use points", "apply points", "redeem rewards", "spend points",
+      "convert points", "use reward points", "redeem loyalty points", "apply reward points", "redeem points online",
+      "redeem points for purchase", "apply loyalty points", "use points balance", "redeem accumulated points", "spend rewards points",
+      "convert rewards", "redeem for discounts", "redeem points deal", "redeem points offer", "apply points for order"
+    ]
+  },
+  "CHECK_REWARDS": {
+    "priority": 15,
+    "keywords": [
+      "check rewards", "view rewards", "rewards info", "reward points info", "my rewards",
+      "rewards balance", "earned rewards", "loyalty rewards info", "track rewards", "reward history",
+      "rewards account", "check loyalty rewards", "reward summary", "rewards status", "rewards overview",
+      "redeemable rewards", "reward points overview", "check points rewards", "reward details", "reward program info"
+    ]
+  },
+  "CLAIM_REWARD": {
+    "priority": 16,
+    "keywords": [
+      "claim reward", "redeem reward", "get reward", "collect reward", "reward redemption",
+      "claim loyalty reward", "claim points reward", "redeem earned reward", "collect loyalty points", "redeem reward points",
+      "claim prize", "receive reward", "redeem gift", "reward redemption process", "get loyalty reward",
+      "redeem offer", "claim accumulated reward", "redeem benefits", "redeem rewards online", "claim reward points"
+    ]
+  }
+}
